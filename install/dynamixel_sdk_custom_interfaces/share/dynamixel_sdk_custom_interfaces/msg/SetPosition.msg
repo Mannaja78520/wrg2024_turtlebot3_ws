@@ -1,0 +1,1 @@
+/home/mannaja/wrg2024_turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

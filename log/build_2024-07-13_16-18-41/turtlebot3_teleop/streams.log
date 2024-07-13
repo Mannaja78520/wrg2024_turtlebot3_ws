@@ -1,0 +1,37 @@
+[3.116s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
+[4.077s] running develop
+[4.077s] /home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.077s] !!
+[4.077s] 
+[4.078s]         ********************************************************************************
+[4.078s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.078s]         Instead, use pypa/build, pypa/installer or other
+[4.078s]         standards-based tools.
+[4.078s] 
+[4.078s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.078s]         ********************************************************************************
+[4.079s] 
+[4.079s] !!
+[4.079s]   easy_install.initialize_options(self)
+[4.762s] running egg_info
+[4.762s] creating turtlebot3_teleop.egg-info
+[4.816s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[4.817s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[4.817s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[4.817s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[4.818s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[4.818s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.919s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[4.920s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[5.051s] running build_ext
+[5.051s] Creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[5.052s] Installing teleop_keyboard script to /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[5.053s] 
+[5.053s] Installed /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop
+[5.053s] running symlink_data
+[5.054s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/share/ament_index
+[5.054s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[5.054s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[5.054s] symbolically linking /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/resource/turtlebot3_teleop -> /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[5.054s] symbolically linking /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/package.xml -> /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[5.147s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_teleop/build --no-deps symlink_data
