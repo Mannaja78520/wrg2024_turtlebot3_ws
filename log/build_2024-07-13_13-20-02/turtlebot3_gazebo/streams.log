@@ -1,0 +1,17 @@
+[0.055s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[0.196s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.228s] gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.234s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.236s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.240s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.250s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.286s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.329s] [ 25%] Built target turtlebot3_drive
+[0.357s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.373s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.437s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.437s] [ 50%] Built target obstacle1
+[0.440s] [ 75%] Built target obstacle2
+[0.493s] [100%] Built target obstacles
+[0.494s] gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[0.500s] gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'

@@ -1,0 +1,62 @@
+gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[  1%] Built target turtlebot3_msgs__cpp
+[  7%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[ 77%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[ 80%] Built target turtlebot3_msgs__rosidl_typesupport_c
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[ 80%] Built target turtlebot3_msgs
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[ 81%] Built target turtlebot3_msgs__py
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[ 94%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing turtlebot3_msgs.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'

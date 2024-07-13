@@ -1,0 +1,221 @@
+[0.104s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo
+[0.618s] -- The C compiler identification is GNU 11.4.0
+[0.807s] -- The CXX compiler identification is GNU 11.4.0
+[0.850s] -- Detecting C compiler ABI info
+[0.974s] -- Detecting C compiler ABI info - done
+[1.025s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.026s] -- Detecting C compile features
+[1.027s] -- Detecting C compile features - done
+[1.043s] -- Detecting CXX compiler ABI info
+[1.198s] -- Detecting CXX compiler ABI info - done
+[1.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.251s] -- Detecting CXX compile features
+[1.252s] -- Detecting CXX compile features - done
+[1.268s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.610s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.753s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.949s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+[1.958s] -- Checking for module 'bullet>=2.82'
+[1.985s] --   Found bullet, version 3.05
+[2.258s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0")
+[2.347s] -- Found assimp: /usr/include (found version "5.2.0")
+[2.491s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart
+[2.960s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time
+[3.037s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4")
+[3.081s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.133s] -- Searching for dependencies of ignition-math6
+[3.140s] -- Looking for OGRE...
+[3.142s] -- OGRE_PREFIX_WATCH changed.
+[3.161s] -- Checking for module 'OGRE'
+[3.195s] --   Found OGRE, version 1.9.0
+[3.275s] -- Found Ogre Ghadamon (1.9.0)
+[3.329s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.358s] -- Looking for OGRE_Paging...
+[3.400s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.400s] -- Looking for OGRE_Terrain...
+[3.440s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.440s] -- Looking for OGRE_Property...
+[3.481s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.481s] -- Looking for OGRE_RTShaderSystem...
+[3.522s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.522s] -- Looking for OGRE_Volume...
+[3.559s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.560s] -- Looking for OGRE_Overlay...
+[3.601s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.302s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.313s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.314s] -- Searching for dependencies of ignition-transport8
+[4.359s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3")
+[4.401s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.410s] -- Checking for module 'libzmq >= 4'
+[4.445s] --   Found libzmq, version 4.3.4
+[4.516s] -- Found ZeroMQ: TRUE (Required is at least version "4")
+[4.531s] -- Checking for module 'uuid'
+[4.557s] --   Found uuid, version 2.37.2
+[4.607s] -- Found UUID: TRUE
+[4.615s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.616s] -- Searching for dependencies of ignition-msgs5
+[4.657s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.667s] -- Checking for module 'tinyxml2'
+[4.692s] --   Found tinyxml2, version 9.0.0
+[4.755s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.763s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.763s] -- Searching for dependencies of ignition-common3
+[4.765s] -- Looking for dlfcn.h - found
+[4.768s] -- Looking for libdl - found
+[4.772s] -- Found DL: TRUE
+[4.797s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0")
+[4.798s] -- Searching for <ignition-common3> component [graphics]
+[4.808s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.808s] -- Searching for dependencies of ignition-common3-graphics
+[4.809s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.820s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.821s] -- Searching for dependencies of ignition-fuel_tools4
+[4.974s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")
+[4.994s] -- Checking for module 'jsoncpp'
+[5.015s] --   Found jsoncpp, version 1.9.5
+[5.082s] -- Found JSONCPP: TRUE
+[5.095s] -- Checking for module 'libzip'
+[5.120s] --   Found libzip, version 1.7.3
+[5.183s] -- Found ZIP: TRUE
+[5.184s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.185s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.186s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.217s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[5.233s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.347s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.363s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.817s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.119s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[6.445s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.466s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.935s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[7.037s] -- Found FastRTPS: /opt/ros/humble/include
+[7.177s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.235s] -- Found Threads: TRUE
+[7.623s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.773s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[7.961s] -- Configuring done (7.8s)
+[8.038s] -- Generating done (0.1s)
+[8.043s] -- Build files have been written to: /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo
+[8.084s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo
+[8.086s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[8.207s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.228s] gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.232s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.232s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.233s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.233s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.239s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.239s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.242s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.242s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.242s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.245s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.247s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.248s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[8.249s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[8.252s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[8.255s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[8.264s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[36.085s] [ 62%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[36.140s] [ 75%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[37.255s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[37.287s] [ 75%] Built target obstacle1
+[38.302s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[38.356s] [ 75%] Built target turtlebot3_drive
+[38.628s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[39.088s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[39.596s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[39.633s] [100%] Built target obstacle2
+[40.036s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[40.058s] [100%] Built target obstacles
+[40.060s] gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[40.073s] gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo'
+[40.114s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo -- -j12 -l12
+[40.566s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo
+[40.800s] -- Install configuration: ""
+[40.804s] -- Execute custom install script
+[40.808s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[40.814s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[40.820s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[40.826s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[40.833s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[40.841s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[40.848s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[40.855s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[40.861s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[40.866s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[40.873s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[40.879s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[40.885s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[40.891s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[40.897s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[40.905s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[40.912s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[40.919s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[40.926s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[40.932s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[40.939s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[40.944s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[40.949s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[40.955s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[40.960s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[40.965s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[40.971s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[40.976s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[40.983s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[40.989s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[40.995s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[41.001s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[41.006s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[41.011s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[41.018s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[41.023s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[41.030s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[41.039s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[41.046s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[41.052s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[41.058s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[41.065s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[41.072s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[41.080s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[41.088s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[41.105s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[41.111s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[41.118s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[41.126s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[41.134s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[41.141s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[41.148s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[41.155s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[41.161s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[41.169s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[41.180s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[41.188s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[41.194s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[41.202s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[41.209s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[41.214s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[41.224s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[41.231s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[41.239s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[41.246s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[41.253s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[41.259s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[41.265s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[41.270s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[41.276s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[41.282s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[41.287s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[41.293s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[41.299s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[41.304s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.310s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.315s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[41.321s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[41.332s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[41.383s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_gazebo

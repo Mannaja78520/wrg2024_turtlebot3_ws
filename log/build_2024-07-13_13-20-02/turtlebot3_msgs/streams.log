@@ -1,0 +1,96 @@
+[0.075s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs -- -j12 -l12
+[0.211s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.233s] gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.237s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.239s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.244s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.251s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.254s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.259s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.265s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.267s] [  1%] Built target turtlebot3_msgs__cpp
+[0.273s] [  1%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.275s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.279s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.280s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.284s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.308s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.332s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.334s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.336s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.340s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.346s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.348s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.357s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.382s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.402s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.403s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.413s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.416s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.450s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.457s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.462s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.488s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.489s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.497s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.502s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.510s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.520s] [ 80%] Built target turtlebot3_msgs
+[0.525s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.533s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.544s] [ 81%] Built target turtlebot3_msgs__py
+[0.549s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.583s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.599s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.605s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.605s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.622s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.623s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.624s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.638s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.639s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.641s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.917s] Traceback (most recent call last):
+[0.918s]   File "/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs/ament_cmake_python/turtlebot3_msgs/setup.py", line 4, in <module>
+[0.918s]     setup(
+[0.918s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 103, in setup
+[0.919s]     return distutils.core.setup(**attrs)
+[0.919s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 146, in setup
+[0.919s]     _setup_distribution = dist = klass(attrs)
+[0.919s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/dist.py", line 307, in __init__
+[0.920s] Traceback (most recent call last):
+[0.920s]   File "/home/mannaja/.local/bin/cmake", line 8, in <module>
+[0.922s]     sys.exit(cmake())
+[0.922s]   File "/home/mannaja/.local/lib/python3.10/site-packages/cmake/__init__.py", line 51, in cmake
+[0.922s]     _Distribution.__init__(self, dist_attrs)
+[0.923s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 286, in __init__
+[0.923s]     raise SystemExit(_program('cmake', sys.argv[1:]))
+[0.923s]   File "/home/mannaja/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in _program
+[0.923s]     return subprocess.call([os.path.join(CMAKE_BIN_DIR, name), *args], close_fds=False)
+[0.923s]   File "/usr/lib/python3.10/subprocess.py", line 347, in call
+[0.923s]     self.finalize_options()
+[0.924s]   File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/dist.py", line 655, in finalize_options
+[0.925s]     defined = metadata.entry_points(group=group)
+[0.926s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[0.926s]     return p.wait(timeout=timeout)
+[0.926s]   File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+[0.926s]     return SelectableGroups.load(eps).select(**params)
+[0.926s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 487, in select
+[0.926s]     return self._all.select(**params)
+[0.926s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in select
+[0.927s]     return self._wait(timeout=timeout)
+[0.927s]   File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+[0.927s]     return EntryPoints(ep for ep in self if ep.matches(**params))
+[0.927s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 359, in <genexpr>
+[0.927s]     return EntryPoints(ep for ep in self if ep.matches(**params))
+[0.927s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 232, in matches
+[0.928s]     return all(map(operator.eq, params.values(), attrs))
+[0.928s] KeyboardInterrupt
+[0.929s]     (pid, sts) = self._try_wait(0)
+[0.929s]   File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+[0.930s]     (pid, sts) = os.waitpid(self.pid, wait_flags)
+[0.930s] KeyboardInterrupt
+[0.958s] gmake[3]: *** [CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg] Interrupt
+[0.958s] gmake[2]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/all] Interrupt
+[0.959s] gmake[1]: *** [Makefile:146: all] Interrupt

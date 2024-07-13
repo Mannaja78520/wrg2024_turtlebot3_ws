@@ -1,0 +1,7 @@
+gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'
+gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'
+[100%] Built target dynamixel_sdk
+gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'
+gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk'

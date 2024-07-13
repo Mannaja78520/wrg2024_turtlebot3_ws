@@ -1,0 +1,64 @@
+[0.073s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs -- -j12 -l12
+[0.583s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.585s] gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.586s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.586s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.587s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.587s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.588s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.589s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.590s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.590s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.591s] [  1%] Built target turtlebot3_msgs__cpp
+[0.591s] [  7%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.591s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.591s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.592s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.593s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.594s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.594s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.596s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.596s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.598s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.600s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.601s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.602s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.603s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.603s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.604s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.604s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.604s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.604s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.604s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.605s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.605s] [ 77%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.605s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.605s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.605s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.605s] [ 80%] Built target turtlebot3_msgs
+[0.606s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.606s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.606s] [ 81%] Built target turtlebot3_msgs__py
+[0.606s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.606s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.606s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.607s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.607s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[0.608s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.608s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.608s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.689s] running egg_info
+[1.034s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[1.034s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[1.037s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[1.213s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[1.215s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[1.253s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[1.259s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[1.260s] gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[1.267s] gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs'
+[1.303s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_msgs -- -j12 -l12

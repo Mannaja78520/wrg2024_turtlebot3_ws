@@ -1,0 +1,97 @@
+gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 12%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 74%] Built target dynamixel_sdk_custom_interfaces
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 76%] Built target dynamixel_sdk_custom_interfaces__py
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+Traceback (most recent call last):
+  File "/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces/ament_cmake_python/dynamixel_sdk_custom_interfaces/setup.py", line 4, in <module>
+    setup(
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 103, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 146, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/home/mannaja/.local/lib/python3.10/site-packages/setuptools/dist.py", line 301, in __init__
+Traceback (most recent call last):
+  File "/home/mannaja/.local/bin/cmake", line 8, in <module>
+    sys.exit(cmake())
+  File "/home/mannaja/.local/lib/python3.10/site-packages/cmake/__init__.py", line 51, in cmake
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "/home/mannaja/.local/lib/python3.10/site-packages/cmake/__init__.py", line 47, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name), *args], close_fds=False)
+  File "/usr/lib/python3.10/subprocess.py", line 347, in call
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    ordered = sorted(eps, key=by_group)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    dist.entry_points for dist in unique(distributions())
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "/usr/lib/python3.10/pathlib.py", line 851, in joinpath
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+    return self._make_child(args)
+  File "/usr/lib/python3.10/pathlib.py", line 617, in _make_child
+    drv, root, parts = self._flavour.join_parsed_parts(
+  File "/usr/lib/python3.10/pathlib.py", line 94, in join_parsed_parts
+    def join_parsed_parts(self, drv, root, parts, drv2, root2, parts2):
+KeyboardInterrupt
+gmake[3]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg] Interrupt
+gmake[2]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg.dir/all] Interrupt
+gmake[1]: *** [Makefile:146: all] Interrupt
