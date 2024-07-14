@@ -1,0 +1,40 @@
+[2.321s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_node:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_description:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs PYTHONPATH=/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[3.197s] running develop
+[3.197s] /home/mannaja/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.197s] !!
+[3.197s] 
+[3.198s]         ********************************************************************************
+[3.198s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.198s]         Instead, use pypa/build, pypa/installer or other
+[3.198s]         standards-based tools.
+[3.198s] 
+[3.198s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.198s]         ********************************************************************************
+[3.199s] 
+[3.199s] !!
+[3.199s]   easy_install.initialize_options(self)
+[4.067s] running egg_info
+[4.067s] creating turtlebot3_example.egg-info
+[4.127s] writing turtlebot3_example.egg-info/PKG-INFO
+[4.128s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[4.128s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[4.129s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[4.129s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[4.129s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.239s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.241s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.358s] running build_ext
+[4.358s] Creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[4.359s] Installing turtlebot3_obstacle_detection script to /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.360s] Installing turtlebot3_patrol_client script to /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.360s] Installing turtlebot3_patrol_server script to /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.361s] Installing turtlebot3_position_control script to /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[4.361s] 
+[4.361s] Installed /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example
+[4.362s] running symlink_data
+[4.362s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[4.362s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[4.362s] creating /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.362s] symbolically linking /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.363s] symbolically linking /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[4.451s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_node:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_description:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs PYTHONPATH=/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data

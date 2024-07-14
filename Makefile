@@ -1,4 +1,4 @@
-.PHONY: rm colcon bringup simulation autodrive manualdrive make_map_simulation make_map savemap autosim autosim_makemap
+.PHONY: rm colcon bringup simulation autodrive manualdrive fakenode make_map_simulation make_map savemap autosim autosim_makemap
 
 sim := False
 
@@ -15,6 +15,8 @@ autodrive:
 	ros2 run turtlebot3_gazebo turtlebot3_drive
 manualdrive:
 	ros2 run turtlebot3_teleop teleop_keyboard
+fakenode:
+	ros2 launch turtlebot3_fake_node turtlebot3_fake_node.launch.py
 make_map:
 	ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=$(sim)
 savemap:

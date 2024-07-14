@@ -1,0 +1,47 @@
+[0.048s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer
+[0.736s] -- The C compiler identification is GNU 11.4.0
+[0.736s] -- The CXX compiler identification is GNU 11.4.0
+[0.736s] -- Detecting C compiler ABI info
+[0.736s] -- Detecting C compiler ABI info - done
+[0.737s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.737s] -- Detecting C compile features
+[0.737s] -- Detecting C compile features - done
+[0.737s] -- Detecting CXX compiler ABI info
+[0.737s] -- Detecting CXX compiler ABI info - done
+[0.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.737s] -- Detecting CXX compile features
+[0.737s] -- Detecting CXX compile features - done
+[0.746s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.086s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.541s] -- Configuring done (1.4s)
+[1.546s] -- Generating done (0.0s)
+[1.549s] -- Build files have been written to: /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer
+[1.587s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer
+[1.590s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[1.731s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer'
+[1.747s] gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer'
+[1.777s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer -- -j12 -l12
+[2.387s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer
+[2.612s] -- Install configuration: ""
+[2.613s] -- Execute custom install script
+[2.615s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[2.621s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[2.630s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[2.636s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[2.642s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[2.649s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[2.655s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[2.662s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[2.669s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[2.676s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[2.686s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.693s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.698s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.704s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.712s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.716s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.726s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.734s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.741s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.776s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/turtlebot3_cartographer

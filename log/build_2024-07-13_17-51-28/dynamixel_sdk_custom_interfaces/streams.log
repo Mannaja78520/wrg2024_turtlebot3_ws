@@ -1,0 +1,298 @@
+[0.049s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[0.739s] -- The C compiler identification is GNU 11.4.0
+[0.739s] -- The CXX compiler identification is GNU 11.4.0
+[0.740s] -- Detecting C compiler ABI info
+[0.740s] -- Detecting C compiler ABI info - done
+[0.740s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.740s] -- Detecting C compile features
+[0.741s] -- Detecting C compile features - done
+[0.741s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.741s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.741s] -- Detecting CXX compile features
+[0.741s] -- Detecting CXX compile features - done
+[0.741s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.065s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.224s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.352s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.483s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.503s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.546s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.790s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.640s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed
+[2.717s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[3.160s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.611s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[3.622s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.674s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[3.674s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.675s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.675s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.710s] -- Found PythonExtra: .so
+[3.757s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed
+[3.860s] -- Configuring done (3.7s)
+[3.909s] -- Generating done (0.0s)
+[3.913s] -- Build files have been written to: /home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
+[3.944s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces
+[3.947s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[4.050s] gmake[1]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.062s] gmake[2]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.064s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.064s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.064s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.069s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.070s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.070s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.072s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.072s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.076s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.078s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.082s] [  5%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[4.085s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.090s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.092s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.487s] running egg_info
+[4.488s] creating dynamixel_sdk_custom_interfaces.egg-info
+[4.552s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.555s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.561s] [  7%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o[0m
+[4.561s] [ 10%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o[0m
+[4.629s] [ 12%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so[0m
+[4.632s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.636s] [ 12%] Built target dynamixel_sdk_custom_interfaces__cpp
+[4.640s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.640s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.641s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.646s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.646s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.647s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.662s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.669s] [ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[4.673s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.674s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.675s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[4.679s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.679s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.681s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.888s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[4.889s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[4.889s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[4.890s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.106s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.107s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[5.157s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.163s] [ 28%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[5.195s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.198s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.203s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[5.204s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[5.215s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.218s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.223s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o[0m
+[5.224s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o[0m
+[5.361s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.364s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.373s] [ 41%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o[0m
+[5.373s] [ 43%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o[0m
+[5.377s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.385s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.397s] [ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o[0m
+[5.397s] [ 48%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o[0m
+[5.404s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.409s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.417s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o[0m
+[5.419s] [ 53%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o[0m
+[5.453s] [ 56%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so[0m
+[5.464s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.468s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.490s] [ 58%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o[0m
+[5.497s] [ 61%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o[0m
+[5.514s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.521s] [ 61%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[5.570s] [ 64%] [32m[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.605s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.612s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[5.793s] [ 66%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[5.850s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[5.857s] [ 66%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[5.918s] [ 69%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.019s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.024s] [ 69%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[6.084s] [ 71%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.114s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.118s] [ 71%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.135s] [ 74%] [32m[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.200s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.204s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.206s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.210s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.215s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[6.217s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.221s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.223s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.227s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.759s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.764s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[6.767s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.773s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.775s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[6.779s] [ 79%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o[0m
+[6.780s] [ 82%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o[0m
+[6.994s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so[0m
+[7.050s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.056s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[7.060s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.060s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.060s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.066s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.067s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.067s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.069s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.069s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.070s] gmake[3]: Entering directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.074s] [ 87%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.075s] [ 89%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.076s] [ 92%] [32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.283s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.288s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.328s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.330s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.331s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.334s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.337s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.371s] gmake[3]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.376s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[7.377s] gmake[2]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.382s] gmake[1]: Leaving directory '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces'
+[7.407s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces -- -j12 -l12
+[7.687s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
+[7.839s] -- Install configuration: ""
+[7.841s] -- Execute custom install script
+[7.841s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[7.852s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[7.859s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[7.864s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[7.869s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.874s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[7.878s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[7.883s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[7.888s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[7.893s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[7.898s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[7.903s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[7.908s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[7.913s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.917s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[7.922s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[7.927s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[7.932s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[7.936s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[7.940s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[7.945s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[7.950s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[7.955s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[7.959s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[7.964s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.968s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[7.974s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[7.981s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.988s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[7.995s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[8.000s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[8.006s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[8.011s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[8.016s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/PKG-INFO
+[8.020s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/SOURCES.txt
+[8.024s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/dependency_links.txt
+[8.029s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/top_level.txt
+[8.034s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[8.039s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[8.043s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.048s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.053s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.058s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.064s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.074s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[8.082s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[8.089s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[8.095s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[8.101s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[8.106s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[8.111s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[8.116s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.116s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.117s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.117s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[8.122s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[8.127s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[8.133s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[8.139s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[8.145s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[8.151s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[8.157s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[8.161s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[8.166s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[8.171s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[8.176s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[8.180s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[8.185s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[8.190s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[8.195s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[8.200s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[8.206s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[8.211s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.216s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.220s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.225s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.230s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.235s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.240s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.245s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[8.250s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[8.255s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[8.260s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[8.260s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[8.261s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.261s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.262s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.262s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.262s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[8.263s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.263s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[8.264s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[8.264s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.265s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.265s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[8.266s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.321s] Listing '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[8.321s] Compiling '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[8.321s] Listing '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[8.321s] Compiling '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[8.321s] Compiling '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[8.321s] Listing '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[8.322s] Compiling '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[8.322s] Compiling '/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[8.328s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[8.328s] -- Set non-toolchain portion of runtime path of "/home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[8.328s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[8.329s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.329s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.329s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.329s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[8.329s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.330s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.330s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.330s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.330s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[8.331s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.331s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.331s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.332s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[8.332s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.332s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[8.332s] -- Installing: /home/mannaja/wrg2024_turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.355s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/wrg2024_turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/dynamixel_sdk_custom_interfaces
