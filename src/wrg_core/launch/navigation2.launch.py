@@ -49,7 +49,7 @@ def generate_launch_description():
     nav2_control_node = Node(
         package="wrg_core",
         executable="single_goal_nav.py",
-        # name="nav2_control",
+        name="nav2_control",
         # output="screen",
     )
     
@@ -69,10 +69,10 @@ def generate_launch_description():
             default_value=param_dir,
             description='Full path to param file to load'),
 
-        # DeclareLaunchArgument(
-        #     'use_sim_time',
-        #     default_value='false',
-        #     description='Use simulation (Gazebo) clock if true'),
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='false',
+            description='Use simulation (Gazebo) clock if true'),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([nav2_launch_file_dir, '/bringup_launch.py']),
@@ -84,10 +84,10 @@ def generate_launch_description():
         nav2_control_node,
 
         # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        #     arguments=['-d', rviz_config_dir],
-        #     parameters=[{'use_sim_time': use_sim_time}],
-        #     output='screen'),
+            # package='rviz2',
+            # executable='rviz2',
+            # name='rviz2',
+            # arguments=['-d', rviz_config_dir],
+            # parameters=[{'use_sim_time': use_sim_time}],
+            # output='screen'),
     ])
