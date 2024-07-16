@@ -22,7 +22,7 @@ make_map:
 savemap:
 	ros2 run nav2_map_server map_saver_cli -f ~/tb3_map
 naviate_on_map:
-	ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=$(sim) map:=$(HOME)/tb3_map.yaml
+	ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=$(sim) map:=$(HOME)/map201.yaml
 autosim:
 	./make.sh "$(MAKE) gazebo" "$(MAKE) autodrive"
 autosim_makemap: 

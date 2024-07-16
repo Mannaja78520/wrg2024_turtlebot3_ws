@@ -38,7 +38,7 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 # Install
 ################################################################################
 install(
-  DIRECTORY launch map param scripts src wrg_core
+  DIRECTORY launch map param scripts wrg_core
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -53,7 +53,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/nav2_control.py
   scripts/robot_main_state.py
-  scripts/single_goal_nav.py
+  scripts/navigate.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

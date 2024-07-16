@@ -34,7 +34,7 @@ def generate_launch_description():
         default=os.path.join(
             get_package_share_directory('wrg_core'),
             'map',
-            'map.yaml'))
+            'map201.yaml'))
 
     param_file_name = TURTLEBOT3_MODEL + '.yaml'
     param_dir = LaunchConfiguration(
@@ -46,17 +46,17 @@ def generate_launch_description():
 
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
-    nav2_control_node = Node(
+    navigate_node = Node(
         package="wrg_core",
-        executable="single_goal_nav.py",
-        name="nav2_control",
-        # output="screen",
+        executable="navigate.py",
+        name="navigate_node",
+        output="screen",
     )
     
-    # rviz_config_dir = os.path.join(
-    #     get_package_share_directory('nav2_bringup'),
-    #     'rviz',
-    #     'nav2_default_view.rviz')
+    rviz_config_dir = os.path.join(
+        get_package_share_directory('nav2_bringup'),
+        'rviz',
+        'nav2_default_view.rviz')
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -81,13 +81,13 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
                 'params_file': param_dir}.items(),
         ),
-        nav2_control_node,
+        navigate_node,
 
-        # Node(
-            # package='rviz2',
-            # executable='rviz2',
-            # name='rviz2',
-            # arguments=['-d', rviz_config_dir],
-            # parameters=[{'use_sim_time': use_sim_time}],
-            # output='screen'),
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', rviz_config_dir],
+            parameters=[{'use_sim_time': use_sim_time}],
+            output='screen'),
     ])
