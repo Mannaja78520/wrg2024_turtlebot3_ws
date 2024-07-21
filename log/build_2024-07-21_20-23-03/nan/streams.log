@@ -1,0 +1,2 @@
+[0.019s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan': /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/nan -- -j12 -l12
+[0.128s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan' returned '0': /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/nan -- -j12 -l12

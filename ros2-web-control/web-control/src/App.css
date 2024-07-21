@@ -5,10 +5,13 @@
   font-family: Arial, sans-serif;
   padding: 20px;
   box-sizing: border-box;
+  background-color: #f4f4f4;
+  text-align: center;
 }
 
 .terminal-container {
   width: 100%;
+  max-width: 800px;
   height: 50vh;
   max-height: 300px;
   background: #1e1e1e;
@@ -18,80 +21,333 @@
 }
 
 .terminal {
-  width: 100%;
   height: 100%;
-  white-space: pre-wrap;
-  font-size: 1.5em;
+  color: #d4d4d4;
 }
 
-.controls {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-button {
-  padding: 15px 25px;
-  font-size: 18px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-button:disabled {
-  background-color: #6c757d;
-}
-
-button:hover:enabled {
-  background-color: #0056b3;
-}
-
-.publish-container {
+.room-controls {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 10px;
+  align-items: center;
   margin-bottom: 20px;
-  width: 100%;
 }
 
-.publish-container input {
-  padding: 15px;
-  font-size: 18px;
-  flex-grow: 1;
-  max-width: 300px;
-  box-sizing: border-box;
+.room-row {
+  display: flex;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
-.publish-container button {
-  padding: 15px 25px;
+.room-button {
+  width: 60px;
+  height: 60px;
+  font-size: 1.2em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.room-button.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.publish-reset-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.publish-button, .reset-room-button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.publish-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.publish-button:hover {
+  background-color: #218838;
+}
+
+.reset-room-button {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.reset-room-button:hover {
+  background-color: #f5c6cb;
+}
+
+.button-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.init {
+  background-color: #007bff;
+}
+
+.start {
+  background-color: #28a745;
+}
+
+.retry {
+  background-color: #ffc107;
+}
+
+.reset {
+  background-color: #dc3545;
+}
+
+.button.active {
+  border: 2px solid #fff;
+}
+
+.button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.chat-controls {
+  margin-top: 20px;
+}
+
+.chat-controls input {
+  width: 320px;
+  height: 40px;
+  font-size: 1.1em;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chat-controls button {
+  width: 160px;
+  height: 50px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.chat-controls button:hover {
+  background-color: #0056b3;
+}
+
+.state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.state-label {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.state-value {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.state-none {
+  background-color: #6c757d;
+}
+
+.state-init {
+  background-color: #007bff;
+}
+
+.state-start {
+  background-color: #ffc107;
+}
+
+.state-retry {
+  background-color: #dc3545;
+}
+
+.state-reset {
+  background-color: #17a2b8;
+}
+
+.state-new {
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+/* General button styles */
+.button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styles for the Reset button */
+.reset-button {
+  background-color: #0077be;
+  color: white;
+}
+
+.reset-button:hover {
+  background-color: #005b8a;
+}
+
+/* Button states */
+.button.active {
+  border: 2px solid #fff;
+}
+
+.button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.terminal-container {
+  margin: 20px;
+}
+
+.terminal {
+  height: 300px;
+  border: 1px solid #ccc;
+}
+
+.room-controls {
+  margin: 20px;
+}
+
+.room-row {
+  margin-bottom: 10px;
+}
+
+.room-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.room-button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.publish-reset-buttons {
+  margin-top: 20px;
+}
+
+.publish-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.reset-room-button {
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.reset-room-button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.button-controls {
+  margin-top: 20px;
+}
+
+.button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: blue;
+  color: white;
+}
+
+.state-display {
+  margin-top: 20px;
   font-size: 18px;
 }
 
-@media (max-width: 600px) {
-  .terminal-container {
-    height: 30vh;
-    max-height: 200px;
-  }
+.state-label {
+  font-weight: bold;
+}
 
-  button {
-    width: 100%;
-    padding: 15px 0;
-    font-size: 16px;
-  }
+.state-value {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
 
-  .publish-container input {
-    width: 100%;
-  }
+.state-init { background-color: #d0f0c0; }
+.state-start { background-color: #f0e68c; }
+.state-retry { background-color: #ffcccb; }
+.state-reset { background-color: #add8e6; }
+.state-none { background-color: #f0f0f0; }
 
-  .publish-container button {
-    width: 100%;
-    padding: 15px 0;
-  }
+.message-input-container {
+  margin: 20px;
+}
+
+.message-input-container input {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.publish-chat-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
