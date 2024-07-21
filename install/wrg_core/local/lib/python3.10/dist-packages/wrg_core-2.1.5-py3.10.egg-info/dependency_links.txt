@@ -1,0 +1,1 @@
+/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core/ament_cmake_python/wrg_core/wrg_core.egg-info/dependency_links.txt

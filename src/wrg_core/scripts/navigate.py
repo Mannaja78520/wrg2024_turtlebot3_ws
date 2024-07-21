@@ -29,7 +29,7 @@ class Navigate(Node):
         # Create publisher to indicate navigation goal completion
         self.nav_goal_finished = self.create_publisher(
             Bool,
-            "finished",
+            "goal/state",
             qos_profile=qos.qos_profile_system_default,
         )
         
@@ -47,10 +47,21 @@ class Navigate(Node):
             qos_profile=qos.qos_profile_sensor_data,
         )
         
+        self.sub_cancle = self.create_subscription(
+            Bool,
+            "robot/cancel_nav",
+            self.sub_cancle_nav_callback,
+            qos_profile=qos.qos_profile_sensor_data,
+        )
+        
         self.__previous_target_goal = Float32MultiArray()
         self.__previous_target_ip = Float32MultiArray()
         self.sent_timer = self.create_timer(0.05, self.timer_callback)
         
+    def sub_cancle_nav_callback(self, cancle = False):
+        if cancle.data:
+            self.navigator.cancelTask()
+    
     def sub_ip_callback(self, initial_pose):
         if initial_pose.data == self.__previous_target_ip:
             return
@@ -60,7 +71,7 @@ class Navigate(Node):
         self.navigator.setInitialPose(ip)
         self.__previous_target_ip = initial_pose.data
         
-    def get_initial_pose(self, x, y, yaw):
+    def get_initial_pose(self, x: float, y: float, yaw: float):
         initial_pose = PoseStamped()
         initial_pose.header.frame_id = "map"
         initial_pose.header.stamp = self.get_clock().now().to_msg()
@@ -72,14 +83,18 @@ class Navigate(Node):
             initial_pose.pose.orientation.y,
             initial_pose.pose.orientation.z,
             initial_pose.pose.orientation.w,
-        ) = quaternion_from_euler(0, 0, math.radians(yaw * -1))
+        ) = quaternion_from_euler(0, 0, To_Radians(yaw))
         return initial_pose
 
-    def sub_goal_callback(self, goal):
+    def sub_goal_callback(self, goal: Float32MultiArray):
         if goal.data == self.__previous_target_goal:
             return
-        target = self.get_point(goal.data[0], goal.data[1], goal.data[2])
-        self.navigator.goToPose(target)
+        targets = []
+        for i in range(len(goal.data) // 3):
+            target = self.get_point(goal.data[i * 3], goal.data[(i * 3) + 1], goal.data[(i * 3) + 2])
+            targets.append(target)
+        # self.navigator.goToPose(target)
+        self.navigator.goThroughPoses(target)
         self.__previous_target_goal = goal.data
 
     def get_point(self, x: float, y: float, yaw: float):
@@ -95,7 +110,7 @@ class Navigate(Node):
             goal_pose.pose.orientation.w
         ) = quaternion_from_euler(0.0, 0.0, To_Radians(yaw))
         return goal_pose
-        
+    
     def timer_callback(self):
         finished_msg = Bool()
         finished_msg.data = self.navigator.isTaskComplete()
@@ -103,9 +118,8 @@ class Navigate(Node):
 
 def main():
     rclpy.init()
-    navigator_node = Navigate()
-    # navigator_node.goto_pos(1.0, 1.0, 45.0)
-    rclpy.spin(navigator_node)
+    navigate_node = Navigate()
+    rclpy.spin(navigate_node)
     rclpy.shutdown()
 
 if __name__ == '__main__':

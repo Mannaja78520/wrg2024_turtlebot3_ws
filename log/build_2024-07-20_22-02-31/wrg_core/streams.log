@@ -1,0 +1,86 @@
+[0.016s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core -- -j12 -l12
+[0.118s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.424s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.495s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.511s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.721s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.793s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.797s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.133s] -- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.578s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.673s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.705s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.711s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.187s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.321s] -- Configuring done (2.2s)
+[2.338s] -- Generating done (0.0s)
+[2.341s] -- Build files have been written to: /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core
+[2.368s] Built target ament_cmake_python_symlink_wrg_core
+[2.652s] running egg_info
+[2.854s] writing wrg_core.egg-info/PKG-INFO
+[2.855s] writing dependency_links to wrg_core.egg-info/dependency_links.txt
+[2.855s] writing top-level names to wrg_core.egg-info/top_level.txt
+[2.939s] reading manifest file 'wrg_core.egg-info/SOURCES.txt'
+[2.940s] writing manifest file 'wrg_core.egg-info/SOURCES.txt'
+[2.964s] Built target ament_cmake_python_build_wrg_core_egg
+[2.979s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core -- -j12 -l12
+[3.177s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core
+[3.254s] -- Install configuration: ""
+[3.254s] -- Execute custom install script
+[3.255s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/launch/bot_bringup.launch.py
+[3.255s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/launch/microros.launch.py
+[3.255s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/launch/nav2_map.launch.py
+[3.256s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/launch/state.launch.py
+[3.256s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/map/map201.pgm
+[3.256s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/map/map201.yaml
+[3.256s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/map/maptb3.pgm
+[3.256s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/map/maptb3.yaml
+[3.257s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/param/burger copy.yaml
+[3.257s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/param/burger.yaml
+[3.257s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/param/waffle.yaml
+[3.257s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/param/waffle_pi.yaml
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/__init__.py
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/__pycache__/utilize.cpython-310.pyc
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/nav2_control.py
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/navigate.py
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/robot_main_state.py
+[3.258s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/talker.py
+[3.259s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/scripts/utilize.py
+[3.259s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/wrg_core/__init__.py
+[3.259s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/wrg_core/main.py
+[3.259s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/config/locations.yaml
+[3.259s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/pythonpath.sh
+[3.260s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/pythonpath.dsv
+[3.260s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/PKG-INFO
+[3.260s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/SOURCES.txt
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/dependency_links.txt
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/top_level.txt
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core/__init__.py
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core/main.py
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/lib/wrg_core/nav2_control.py
+[3.261s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/lib/wrg_core/robot_main_state.py
+[3.262s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/lib/wrg_core/navigate.py
+[3.262s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/lib/wrg_core/talker.py
+[3.265s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/ament_index/resource_index/package_run_dependencies/wrg_core
+[3.266s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/ament_index/resource_index/parent_prefix_path/wrg_core
+[3.266s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.sh
+[3.266s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.dsv
+[3.267s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/path.sh
+[3.267s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/environment/path.dsv
+[3.267s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/local_setup.bash
+[3.268s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/local_setup.sh
+[3.268s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/local_setup.zsh
+[3.268s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/local_setup.dsv
+[3.269s] -- Symlinking: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/package.dsv
+[3.272s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/ament_index/resource_index/packages/wrg_core
+[3.273s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig.cmake
+[3.273s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig-version.cmake
+[3.273s] -- Up-to-date symlink: /home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/share/wrg_core/package.xml
+[3.308s] Listing '/home/mannaja/wrg2024_turtlebot3_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core'...
+[3.325s] Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --install /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core

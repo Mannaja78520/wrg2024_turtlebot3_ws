@@ -50,7 +50,7 @@ def generate_launch_description():
         package="wrg_core",
         executable="navigate.py",
         name="navigate_node",
-        output="screen",
+        # output="screen",
     )
     
     rviz_config_dir = os.path.join(

@@ -38,7 +38,7 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 # Install
 ################################################################################
 install(
-  DIRECTORY launch map param scripts wrg_core
+  DIRECTORY launch map param scripts wrg_core config
   DESTINATION share/${PROJECT_NAME}
 )
 
@@ -54,6 +54,7 @@ install(PROGRAMS
   scripts/nav2_control.py
   scripts/robot_main_state.py
   scripts/navigate.py
+  scripts/talker.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
