@@ -1,9 +1,0 @@
-[0.015s] Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/opt/ros/humble /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/wrg_core -- -j12 -l12
-[0.117s] Built target ament_cmake_python_symlink_wrg_core
-[0.388s] running egg_info
-[0.667s] writing wrg_core.egg-info/PKG-INFO
-[0.667s] writing dependency_links to wrg_core.egg-info/dependency_links.txt
-[0.667s] writing top-level names to wrg_core.egg-info/top_level.txt
-[0.750s] reading manifest file 'wrg_core.egg-info/SOURCES.txt'
-[0.750s] writing manifest file 'wrg_core.egg-info/SOURCES.txt'
-[0.774s] Built target ament_cmake_python_build_wrg_core_egg

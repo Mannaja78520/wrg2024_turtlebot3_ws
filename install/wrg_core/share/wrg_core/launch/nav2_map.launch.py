@@ -1,1 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/src/wrg_core/launch/nav2_map.launch.py

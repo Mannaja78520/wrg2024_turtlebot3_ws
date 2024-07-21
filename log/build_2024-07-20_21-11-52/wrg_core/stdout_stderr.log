@@ -1,8 +1,0 @@
-Built target ament_cmake_python_symlink_wrg_core
-running egg_info
-writing wrg_core.egg-info/PKG-INFO
-writing dependency_links to wrg_core.egg-info/dependency_links.txt
-writing top-level names to wrg_core.egg-info/top_level.txt
-reading manifest file 'wrg_core.egg-info/SOURCES.txt'
-writing manifest file 'wrg_core.egg-info/SOURCES.txt'
-Built target ament_cmake_python_build_wrg_core_egg
