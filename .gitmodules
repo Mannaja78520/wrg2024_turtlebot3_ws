@@ -1,0 +1,3 @@
+[submodule "ros2-web-control/ros2-web-bridge"]
+	path = ros2-web-control/ros2-web-bridge
+	url = https://github.com/RobotWebTools/ros2-web-bridge.git
