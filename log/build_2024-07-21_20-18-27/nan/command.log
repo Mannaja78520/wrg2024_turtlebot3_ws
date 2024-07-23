@@ -1,4 +1,0 @@
-Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan': /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/ros2-web-bridge/node_modules/nan -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/nan
-Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan' returned '0': /home/mannaja/.local/bin/cmake /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/ros2-web-bridge/node_modules/nan -DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/install/nan
-Invoking command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan': /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/nan -- -j12 -l12
-Invoked command in '/home/mannaja/wrg2024_turtlebot3_ws/build/nan' returned '0': /home/mannaja/.local/bin/cmake --build /home/mannaja/wrg2024_turtlebot3_ws/build/nan -- -j12 -l12
