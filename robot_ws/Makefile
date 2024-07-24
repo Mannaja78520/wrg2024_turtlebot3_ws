@@ -1,4 +1,4 @@
-.PHONY: rm colcon bringup simulation autodrive manualdrive fakenode make_map_simulation make_map savemap autosim autosim_makemap
+.PHONY: rm colcon bringup autodrive manualdrive fakenode make_map_simulation make_map savemap autosim autosim_makemap
 
 sim := False
 
