@@ -32,11 +32,11 @@ def NormalizeDegs(degs):
         return 0
     return degs
 
-def sig_num(number):
+def sig_num(number) -> int:
     return (number > 0) - (number < 0)
 
-def clip(value, min_val, max_val):
+def clip(value, min_val, max_val) -> float:
     return max(min(value, max_val), min_val)
 
-def AtTargetRange(number, target, range):
+def AtTargetRange(number, target, range) -> bool:
     return abs(number - target) < range

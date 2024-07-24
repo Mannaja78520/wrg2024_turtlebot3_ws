@@ -150,6 +150,7 @@ def main():
     rclpy.init()
     sub = RobotMainState()
     rclpy.spin(sub)
+    sub.destroy_node()
     rclpy.shutdown()
 
 if __name__ == "__main__":

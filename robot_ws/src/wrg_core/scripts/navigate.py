@@ -117,6 +117,7 @@ def main():
     rclpy.init()
     navigate_node = Navigate()
     rclpy.spin(navigate_node)
+    navigate_node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

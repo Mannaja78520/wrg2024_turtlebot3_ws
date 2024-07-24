@@ -46,6 +46,11 @@ def generate_launch_description():
 
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
+    rviz_config_dir = os.path.join(
+        get_package_share_directory('nav2_bringup'),
+        'rviz',
+        'nav2_default_view.rviz')
+
     navigate_node = Node(
         package="wrg_core",
         executable="navigate.py",
@@ -53,11 +58,6 @@ def generate_launch_description():
         # output="screen",
     )
     
-    rviz_config_dir = os.path.join(
-        get_package_share_directory('nav2_bringup'),
-        'rviz',
-        'nav2_default_view.rviz')
-
     return LaunchDescription([
         DeclareLaunchArgument(
             'map',
@@ -81,7 +81,6 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time,
                 'params_file': param_dir}.items(),
         ),
-        navigate_node,
 
         Node(
             package='rviz2',
@@ -90,4 +89,6 @@ def generate_launch_description():
             arguments=['-d', rviz_config_dir],
             parameters=[{'use_sim_time': use_sim_time}],
             output='screen'),
+        
+        navigate_node,
     ])

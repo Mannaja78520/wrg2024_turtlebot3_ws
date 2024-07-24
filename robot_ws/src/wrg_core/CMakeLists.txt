@@ -51,9 +51,9 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Programs
 ################################################################################
 install(PROGRAMS
-  scripts/nav2_control.py
-  scripts/robot_main_state.py
+  scripts/monitoring_node.py
   scripts/navigate.py
+  scripts/robot_main_state.py
   scripts/talker.py
   DESTINATION lib/${PROJECT_NAME}
 )
