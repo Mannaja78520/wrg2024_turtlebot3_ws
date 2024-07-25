@@ -1,0 +1,1 @@
+/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/build/wrg_turtlebot3_gazebo/ament_cmake_core/wrg_turtlebot3_gazeboConfig-version.cmake

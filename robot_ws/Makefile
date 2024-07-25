@@ -20,7 +20,7 @@ fakenode:
 make_map:
 	ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=$(sim)
 savemap:
-	ros2 run nav2_map_server map_saver_cli -f ~/tb3_map
+	ros2 run nav2_map_server map_saver_cli -f ~/wrg2024_map
 naviate_on_map:
 	ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=$(sim) map:=$(HOME)/tb3_map.yaml
 autosim:

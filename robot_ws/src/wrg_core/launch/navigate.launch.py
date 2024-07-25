@@ -34,7 +34,7 @@ def generate_launch_description():
         default=os.path.join(
             get_package_share_directory('wrg_core'),
             'map',
-            'map201.yaml'))
+            'wrg2024_map.yaml'))
 
     param_file_name = TURTLEBOT3_MODEL + '.yaml'
     param_dir = LaunchConfiguration(
@@ -87,8 +87,8 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             arguments=['-d', rviz_config_dir],
-            parameters=[{'use_sim_time': use_sim_time}],
+            # parameters=[{'use_sim_time': use_sim_time}],
             output='screen'),
         
-        navigate_node,
+        # navigate_node,
     ])
