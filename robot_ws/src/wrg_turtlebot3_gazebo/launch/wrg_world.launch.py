@@ -24,7 +24,6 @@ from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 
-
 def generate_launch_description():
     launch_file_dir = os.path.join(get_package_share_directory('wrg_turtlebot3_gazebo'), 'launch')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
@@ -32,7 +31,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     x_pose = LaunchConfiguration('x_pose', default='0.0')
     y_pose = LaunchConfiguration('y_pose', default='0.0')
-    z_pose = LaunchConfiguration('z_pose', default='0.015')
+    z_pose = LaunchConfiguration('z_pose', default='0.01')
 
     world = os.path.join(
         get_package_share_directory('wrg_turtlebot3_gazebo'),

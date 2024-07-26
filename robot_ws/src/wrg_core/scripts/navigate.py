@@ -24,8 +24,6 @@ class Navigate(Node):
         # Initialize the navigator
         self.navigator = BasicNavigator()
 
-        # Wait until Nav2 is active
-        self.navigator.waitUntilNav2Active()
         # Create publisher to indicate navigation goal completion
         self.nav_goal_finished = self.create_publisher(
             Bool,
@@ -53,20 +51,24 @@ class Navigate(Node):
         
         self.__previous_target_goal = Float32MultiArray()
         self.__previous_target_ip = Float32MultiArray()
-        self.sent_timer = self.create_timer(0.05, self.timer_callback)
+        # Wait until Nav2 is active
+        self.navigator.waitUntilNav2Active()
+        self.sent_timer = self.create_timer(0.1, self.timer_callback)
         
     def sub_cancel_nav_callback(self, cancle: Bool = False):
         if cancle.data:
             self.navigator.cancelTask()
+            # self.navigator.clearAllCostmaps()
+            self.__previous_target_goal = Float32MultiArray()
     
     def sub_ip_callback(self, initial_pose: Float32MultiArray):
-        if initial_pose.data == self.__previous_target_ip:
-            return
+        # if initial_pose.data == self.__previous_target_ip:
+        #     return
         ip = self.get_initial_pose(
             initial_pose.data[0], initial_pose.data[1], initial_pose.data[2]
         )
         self.navigator.setInitialPose(ip)
-        self.__previous_target_ip = initial_pose.data
+        self.__previous_target_ip = ip
         
     def get_initial_pose(self, x: float, y: float, yaw: float):
         initial_pose = PoseStamped()
@@ -91,7 +93,7 @@ class Navigate(Node):
             target = self.get_point(goal.data[i * 3], goal.data[(i * 3) + 1], goal.data[(i * 3) + 2])
             targets.append(target)
         # self.navigator.goToPose(target)
-        self.navigator.goThroughPoses(target)
+        self.navigator.goThroughPoses(targets)
         self.__previous_target_goal = goal.data
 
     def get_point(self, x: float, y: float, yaw: float):
@@ -112,6 +114,9 @@ class Navigate(Node):
         finished_msg = Bool()
         finished_msg.data = self.navigator.isTaskComplete()
         self.nav_goal_finished.publish(finished_msg)
+        # if finished_msg.data:
+            # self.navigator.clearAllCostmaps()
+            
 
 def main():
     rclpy.init()

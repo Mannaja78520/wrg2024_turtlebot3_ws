@@ -1,1 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/src/wrg_turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc

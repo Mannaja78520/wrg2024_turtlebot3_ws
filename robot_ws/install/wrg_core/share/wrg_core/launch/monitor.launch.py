@@ -1,1 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/src/wrg_core/launch/monitor.launch.py

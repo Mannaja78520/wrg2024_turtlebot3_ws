@@ -1,6 +1,6 @@
 amcl:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: false
     alpha1: 0.2
     alpha2: 0.2
     alpha3: 0.2
@@ -14,12 +14,12 @@ amcl:
     global_frame_id: "map"
     lambda_short: 0.05
     laser_likelihood_max_dist: 2.0
-    laser_max_range: 10.0 #10.0
+    laser_max_range: 20.0 #10.0
     laser_min_range: 0.05 #0.05
     laser_model_type: "likelihood_field"
     max_beams: 60
     max_particles: 3500
-    min_particles: 600
+    min_particles: 500
     odom_frame_id: "odom"
     pf_err: 0.05
     pf_z: 0.99
@@ -43,15 +43,15 @@ amcl:
 
 amcl_map_client:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 amcl_rclcpp_node:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 bt_navigator:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
     global_frame: map
     robot_base_frame: base_link
     odom_topic: /odom
@@ -96,12 +96,12 @@ bt_navigator:
 
 bt_navigator_rclcpp_node:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 controller_server:
   ros__parameters:
-    use_sim_time: true
-    controller_frequency: 50.0
+    use_sim_time: false
+    controller_frequency: 30.0
     min_x_velocity_threshold: 0.001
     min_y_velocity_threshold: 0.0
     min_theta_velocity_threshold: 0.002
@@ -117,9 +117,9 @@ controller_server:
       movement_time_allowance: 10.0
     
     general_goal_checker:
-      stateful: False
+      stateful: True
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.1
+      xy_goal_tolerance: 0.05
       yaw_goal_tolerance: 0.05
 
     FollowPath:
@@ -127,9 +127,9 @@ controller_server:
       time_steps: 56
       model_dt: 0.05
       batch_size: 2000
-      vx_std: 0.21
+      vx_std: 0.15
       vy_std: 0.0
-      wz_std: 1.1
+      wz_std: 0.7
       vx_max: 0.22 #0.22
       vx_min: -0.22 #-0.22
       vy_max: 0.0
@@ -160,12 +160,12 @@ controller_server:
         enabled: true
         cost_power: 1
         cost_weight: 3.0
-        threshold_to_consider: 0.3
+        threshold_to_consider: 0.5
       PreferForwardCritic:
         enabled: true
         cost_power: 1
         cost_weight: 5.0
-        threshold_to_consider: 0.4
+        threshold_to_consider: 0.5
       # Option to replace Cost and use Obstacles instead
       ObstaclesCritic:
         enabled: true
@@ -220,7 +220,7 @@ controller_server:
       
 controller_server_rclcpp_node:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 local_costmap:
   local_costmap:
@@ -229,7 +229,7 @@ local_costmap:
       publish_frequency: 2.0
       global_frame: odom
       robot_base_frame: base_link
-      use_sim_time: true
+      use_sim_time: False
       rolling_window: true
       width: 3
       height: 3
@@ -238,8 +238,8 @@ local_costmap:
       plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.07
-        cost_scaling_factor: 1.5
+        inflation_radius: 0.1
+        cost_scaling_factor: 3.0
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
@@ -275,10 +275,10 @@ local_costmap:
       always_send_full_costmap: True
   local_costmap_client:
     ros__parameters:
-      use_sim_time: true
+      use_sim_time: False
   local_costmap_rclcpp_node:
     ros__parameters:
-      use_sim_time: true
+      use_sim_time: False
 
 global_costmap:
   global_costmap:
@@ -287,7 +287,7 @@ global_costmap:
       publish_frequency: 1.0
       global_frame: map
       robot_base_frame: base_link
-      use_sim_time: true
+      use_sim_time: True
       robot_radius: 0.1
       resolution: 0.05
       track_unknown_space: true
@@ -331,24 +331,24 @@ global_costmap:
         map_subscribe_transient_local: True
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 7.0
+        cost_scaling_factor: 3.0
         inflation_radius: 0.55
       always_send_full_costmap: True
   global_costmap_client:
     ros__parameters:
-      use_sim_time: true
+      use_sim_time: False
   global_costmap_rclcpp_node:
     ros__parameters:
-      use_sim_time: true
+      use_sim_time: False
 
 map_server:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
     yaml_filename: "map.yaml"
 
 map_saver:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
     save_map_timeout: 5.0
     free_thresh_default: 0.25
     occupied_thresh_default: 0.65
@@ -357,7 +357,7 @@ map_saver:
 planner_server:
   ros__parameters:
     expected_planner_frequency: 20.0
-    use_sim_time: true
+    use_sim_time: False
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
@@ -367,7 +367,7 @@ planner_server:
 
 planner_server_rclcpp_node:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 recoveries_server:
   ros__parameters:
@@ -392,7 +392,7 @@ recoveries_server:
 
 robot_state_publisher:
   ros__parameters:
-    use_sim_time: true
+    use_sim_time: False
 
 waypoint_follower:
   ros__parameters:

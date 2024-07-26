@@ -1,1 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/build/wrg_turtlebot3_gazebo/ament_cmake_environment_hooks/local_setup.zsh

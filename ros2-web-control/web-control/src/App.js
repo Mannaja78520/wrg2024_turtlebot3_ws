@@ -13,6 +13,7 @@ const App = () => {
   const [roomValues, setRoomValues] = useState(Array(5).fill(null)); // Initial values for rooms 1-5
   const [robotState, setRobotState] = useState('None'); // Track robot state
   const [prevState, setPrevState] = useState('None'); // Track previous state to identify new state
+  const [challengeLocationPublished, setChallengeLocationPublished] = useState(false); // Track if challenge location is published
 
   useEffect(() => {
     const terminalInstance = new Terminal({
@@ -144,6 +145,8 @@ const App = () => {
         console.log(logMessage);
         xtermRef.current.writeln(logMessage); // Echo to terminal
         terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+
+        setChallengeLocationPublished(true); // Mark challenge location as published
       }
     } else {
       alert('All five rooms must be selected before publishing.');
@@ -199,6 +202,8 @@ const App = () => {
       console.log(logMessage);
       xtermRef.current.writeln(logMessage);
       terminalRef.current.scrollTop = terminalRef.current.scrollHeight;
+
+      setChallengeLocationPublished(false); // Reset challenge location published status
     }
   };
 
@@ -215,7 +220,7 @@ const App = () => {
 
   const getButtonState = (action) => {
     if (action === 'Init') return robotState === 'None';
-    if (action === 'Start') return robotState === 'Init';
+    if (action === 'Start') return robotState === 'Init' && isAllRowsSelected() && challengeLocationPublished;
     if (action === 'Retry') return robotState === 'Start';
     return true;
   };

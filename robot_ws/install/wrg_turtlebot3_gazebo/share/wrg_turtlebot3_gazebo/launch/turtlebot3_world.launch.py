@@ -1,1 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/src/wrg_turtlebot3_gazebo/launch/turtlebot3_world.launch.py
