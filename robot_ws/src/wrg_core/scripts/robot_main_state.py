@@ -105,7 +105,8 @@ class RobotMainState(Node):
                 for room in rooms.data:
                     if room in waypoint_map:
                         new_challenge_room.append(waypoint_map[room])
-
+                new_challenge_room.append(self.waypoints["challenge_zone"])
+                
                 self.challenge_room = new_challenge_room
                 print(f"Updated challenge room: {self.challenge_room}")
                 
@@ -119,26 +120,27 @@ class RobotMainState(Node):
         msg_ip = Float32MultiArray()
         msg_goal = Float32MultiArray()
         msg_cancle_nav = Bool(data = False)
-        if self.robot_state in ["None", "Retry"]:
+        if self.robot_state in ["None", "Init", "Retry"]:
             self.room = 0
             self.robot_main_state = 0
             self.__previous_robot_main_state = -1
-            msg_cancle_nav.data = True
-        self.pub_cancle_nav.publish(msg_cancle_nav)
-        
-        if self.robot_state == "None":
-            msg_ip.data = self.waypoints["start"].tolist()
-            self.pub_ip.publish(msg_ip)
-            msg_goal.data = self.waypoints["start"].tolist()
-            self.pub_goal.publish(msg_goal)
+            if self.robot_state in ["None", "Retry"]:
+                msg_cancle_nav.data = True
+            elif self.robot_state == "Init":
+                msg_ip.data = self.waypoints["start"].tolist()
+                self.pub_ip.publish(msg_ip)
                 
-        elif self.robot_state == "Start":
+        self.pub_cancle_nav.publish(msg_cancle_nav)        
+        
+        if self.robot_state == "Start":
             if self.robot_main_state != self.__previous_robot_main_state:
                 if self.robot_main_state == 0:
                     msg_goal.data = np.concatenate((self.waypoints["sub"], 
                                                     self.waypoints["challenge_zone"])).tolist()        
                     self.pub_goal.publish(msg_goal)
                 elif 0 < self.robot_main_state < 6:
+                    msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
+                    self.pub_ip.publish(msg_ip)
                     msg_goal.data = (self.challenge_room[self.room]).tolist()        
                     self.pub_goal.publish(msg_goal)
                     self.room += 1

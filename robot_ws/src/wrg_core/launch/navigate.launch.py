@@ -27,13 +27,13 @@ TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
 
 
 def generate_launch_description():
-    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     map_dir = LaunchConfiguration(
         'map',
         default=os.path.join(
             get_package_share_directory('wrg_core'),
             'map',
-            'wrg2024_map.yaml'))
+            'wrg_map.yaml'))
 
     param_file_name = TURTLEBOT3_MODEL + '.yaml'
     param_dir = LaunchConfiguration(
@@ -83,7 +83,7 @@ def generate_launch_description():
 
         DeclareLaunchArgument(
             'use_sim_time',
-            default_value='true',
+            default_value='false',
             description='Use simulation (Gazebo) clock if true'),
 
         IncludeLaunchDescription(
@@ -110,5 +110,5 @@ def generate_launch_description():
         ),
         
         navigate_node,
-        gazebo_launch,
+        # gazebo_launch,
     ])
