@@ -83,6 +83,7 @@ class RobotMainState(Node):
         self.robot_main_state: int = 0 
         self.__previous_robot_main_state: int = -1
         self.room: int = 0
+        self.i: int = 0
         self.challenge_room: list = []
         self.sent_timer = self.create_timer(0.05, self.timer_callback)
         
@@ -121,31 +122,41 @@ class RobotMainState(Node):
         msg_goal = Float32MultiArray()
         msg_cancle_nav = Bool(data = False)
         if self.robot_state in ["None", "Init", "Retry"]:
-            self.room = 0
-            self.robot_main_state = 0
             self.__previous_robot_main_state = -1
+            self.i = 0
             if self.robot_state in ["None", "Retry"]:
                 msg_cancle_nav.data = True
             elif self.robot_state == "Init":
                 msg_ip.data = self.waypoints["start"].tolist()
                 self.pub_ip.publish(msg_ip)
-                time.sleep(0.1)
+            time.sleep(0.25)
+            self.pub_cancle_nav.publish(msg_cancle_nav)        
                 
-        self.pub_cancle_nav.publish(msg_cancle_nav)        
         
         if self.robot_state == "Start":
+            if self.i == 0:
+                self.room = 0
+                self.robot_main_state = 0
+                
             if self.robot_main_state != self.__previous_robot_main_state:
                 if self.robot_main_state == 0:
                     msg_goal.data = np.concatenate((self.waypoints["sub"], 
                                                     self.waypoints["challenge_zone"])).tolist()        
                     self.pub_goal.publish(msg_goal)
                 elif 0 < self.robot_main_state < 6:
+                    if self.room > 0:
+                        msg_cancle_nav.data = True
+                        self.pub_cancle_nav.publish(msg_cancle_nav)
+                        time.sleep(1)
                     msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     self.pub_ip.publish(msg_ip)
                     msg_goal.data = (self.challenge_room[self.room]).tolist()        
                     self.pub_goal.publish(msg_goal)
                     self.room += 1
                 elif self.robot_main_state == 6:
+                    msg_cancle_nav.data = True
+                    self.pub_cancle_nav.publish(msg_cancle_nav)
+                    time.sleep(1)
                     msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     self.pub_ip.publish(msg_ip)
                     msg_goal.data = np.concatenate(([self.waypoints["challenge_zone"][0], self.waypoints["challenge_zone"][1], 90], 
@@ -153,6 +164,8 @@ class RobotMainState(Node):
                                                     [self.waypoints["start"][0], self.waypoints["start"][1], 180])).tolist()        
                     self.pub_goal.publish(msg_goal)
                 self.__previous_robot_main_state = self.robot_main_state
+            self.i += 1
+        
             
 def main():
     rclpy.init()

@@ -3,11 +3,11 @@ robot_main_state_node:
     waypoints_start_to_challenge_zone: 
       start: [0.0, 0.0, 0.0]
       sub: [1.75, 0.0, 0.0]
-      challenge_zone: [1.75, 0.45, -90.0]
+      challenge_zone: [1.75, 0.35, -90.0]
 
     lists_challenge_zone: 
-      room1: [-0.126, 0.45, -90.0]
-      room2: [0.31, 0.45, -90.0]
-      room3: [0.76, 0.45, -90.0]
-      room4: [1.185, 0.45, -90.0]
-      room5: [1.75, 0.45, -90.0]
+      room1: [-0.126, 0.55, 180.0]
+      room2: [0.31, 0.55, 180.0]
+      room3: [0.76, 0.55, 180.0]
+      room4: [1.185, 0.55, 180.0]
+      room5: [1.75, 0.55, 180.0]

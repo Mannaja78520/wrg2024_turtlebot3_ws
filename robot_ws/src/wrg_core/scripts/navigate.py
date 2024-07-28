@@ -7,6 +7,7 @@ from geometry_msgs.msg import PoseStamped
 from std_msgs.msg import Bool, Float32MultiArray
 from nav2_simple_commander.robot_navigator import BasicNavigator
 from tf_transformations import quaternion_from_euler
+import time
 from utilize import To_Radians
 
 class Navigate(Node):
@@ -43,6 +44,7 @@ class Navigate(Node):
             initial_pose.data[0], initial_pose.data[1], initial_pose.data[2]
         )
         self.navigator.setInitialPose(ip)
+        time.sleep(0.1)
         self.navigator.clearAllCostmaps()
         
     def get_initial_pose(self, x: float, y: float, yaw: float):
@@ -107,6 +109,7 @@ class CancelNavigate(Node):
             self.navigator.cancelTask()          
             self.navigator.clearAllCostmaps()
             navigate_node.__previous_target_goal = Float32MultiArray()  # Reset the previous target goal
+            time.sleep(0.1)
 
 def main():
     rclpy.init()

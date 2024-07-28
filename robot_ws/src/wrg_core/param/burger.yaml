@@ -120,20 +120,20 @@ controller_server:
       stateful: False
       plugin: "nav2_controller::SimpleGoalChecker"
       xy_goal_tolerance: 0.1
-      yaw_goal_tolerance: 0.06
+      yaw_goal_tolerance: 0.035
 
     FollowPath:
       plugin: "nav2_mppi_controller::MPPIController"
       time_steps: 56
       model_dt: 0.05
       batch_size: 2000
-      vx_std: 0.251
+      vx_std: 0.6
       vy_std: 0.0
-      wz_std: 1.0
-      vx_max: 0.35 #0.22
-      vx_min: -0.35 #-0.22
+      wz_std: 1.53
+      vx_max: 0.8 #0.22
+      vx_min: -0.8 #-0.22
       vy_max: 0.0
-      wz_max: 2.3 #2.84
+      wz_max: 2.35 #2.84
       iteration_count: 1
       prune_distance: 1.7
       transform_tolerance: 0.1
@@ -234,7 +234,7 @@ local_costmap:
       width: 3
       height: 3
       resolution: 0.05
-      robot_radius: 0.1
+      robot_radius: 0.128
       plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
@@ -288,7 +288,7 @@ global_costmap:
       global_frame: map
       robot_base_frame: base_link
       use_sim_time: True
-      robot_radius: 0.1
+      robot_radius: 0.128
       resolution: 0.05
       track_unknown_space: true
       plugins: ["static_layer", "obstacle_layer", "voxel_layer", "inflation_layer"]
