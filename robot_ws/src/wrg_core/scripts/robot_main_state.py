@@ -129,6 +129,7 @@ class RobotMainState(Node):
             elif self.robot_state == "Init":
                 msg_ip.data = self.waypoints["start"].tolist()
                 self.pub_ip.publish(msg_ip)
+                time.sleep(0.1)
                 
         self.pub_cancle_nav.publish(msg_cancle_nav)        
         
