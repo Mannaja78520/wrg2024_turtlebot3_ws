@@ -145,6 +145,8 @@ class RobotMainState(Node):
                     self.pub_goal.publish(msg_goal)
                     self.room += 1
                 elif self.robot_main_state == 6:
+                    msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
+                    self.pub_ip.publish(msg_ip)
                     msg_goal.data = np.concatenate(([self.waypoints["challenge_zone"][0], self.waypoints["challenge_zone"][1], 90], 
                                                     [self.waypoints["sub"][0], self.waypoints["sub"][1], 180], 
                                                     [self.waypoints["start"][0], self.waypoints["start"][1], 180])).tolist()        

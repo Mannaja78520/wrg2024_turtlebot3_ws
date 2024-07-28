@@ -7,6 +7,7 @@ rm:
 colcon:
 	colcon build --symlink-install --cmake-args -Wno-dev
 	chmod +x make.sh
+	. ~/.bashrc
 bringup:
 	ros2 launch turtlebot3_bringup robot.launch.py
 gazebo:
