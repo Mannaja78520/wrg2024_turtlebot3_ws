@@ -109,7 +109,7 @@ class CancelNavigate(Node):
             self.navigator.cancelTask()          
             self.navigator.clearAllCostmaps()
             navigate_node.__previous_target_goal = Float32MultiArray()  # Reset the previous target goal
-            time.sleep(0.1)
+            time.sleep(1)
 
 def main():
     rclpy.init()

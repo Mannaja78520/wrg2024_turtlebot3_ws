@@ -9,11 +9,15 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "createjs": "^1.0.1",
+    "eventemitter2": "^6.4.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "xterm": "^5.1.0",
-    "roslib": "^1.2.1"
+    "react-scripts": "^5.0.1",
+    "ros2d": "^0.10.0",
+    "roslib": "^1.2.1",
+    "webpack": "^5.93.0",
+    "xterm": "^5.1.0"
   },
   "browserslist": {
     "production": [
@@ -26,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.10.2"
   }
 }

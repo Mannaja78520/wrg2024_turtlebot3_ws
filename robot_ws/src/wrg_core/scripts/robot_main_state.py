@@ -85,7 +85,7 @@ class RobotMainState(Node):
         self.room: int = 0
         self.i: int = 0
         self.challenge_room: list = []
-        self.sent_timer = self.create_timer(0.05, self.timer_callback)
+        self.sent_timer = self.create_timer(0.1, self.timer_callback)
         
     def sub_robot_state_callback(self, robot_state: String):
         self.robot_state = robot_state.data
@@ -112,6 +112,8 @@ class RobotMainState(Node):
                 print(f"Updated challenge room: {self.challenge_room}")
                 
     def sub_goal_state_callback(self, goal_state: Bool = False) -> None:
+        if self.i < 20:
+            return
         if self.__previous_goal_state != goal_state.data:
             if goal_state.data:
                 self.robot_main_state += 1
@@ -137,6 +139,7 @@ class RobotMainState(Node):
             if self.i == 0:
                 self.room = 0
                 self.robot_main_state = 0
+                # time.sleep(0.25)
                 
             if self.robot_main_state != self.__previous_robot_main_state:
                 if self.robot_main_state == 0:
@@ -147,18 +150,18 @@ class RobotMainState(Node):
                     if self.room > 0:
                         msg_cancle_nav.data = True
                         self.pub_cancle_nav.publish(msg_cancle_nav)
-                        time.sleep(1)
-                    msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
-                    self.pub_ip.publish(msg_ip)
+                        time.sleep(3)
+                    # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
+                    # self.pub_ip.publish(msg_ip)
                     msg_goal.data = (self.challenge_room[self.room]).tolist()        
                     self.pub_goal.publish(msg_goal)
                     self.room += 1
                 elif self.robot_main_state == 6:
                     msg_cancle_nav.data = True
                     self.pub_cancle_nav.publish(msg_cancle_nav)
-                    time.sleep(1)
-                    msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
-                    self.pub_ip.publish(msg_ip)
+                    time.sleep(3)
+                    # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
+                    # self.pub_ip.publish(msg_ip)
                     msg_goal.data = np.concatenate(([self.waypoints["challenge_zone"][0], self.waypoints["challenge_zone"][1], 90], 
                                                     [self.waypoints["sub"][0], self.waypoints["sub"][1], 180], 
                                                     [self.waypoints["start"][0], self.waypoints["start"][1], 180])).tolist()        

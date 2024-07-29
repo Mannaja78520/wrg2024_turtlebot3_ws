@@ -38,10 +38,19 @@ def generate_launch_description():
         )
     )
 
+    rosbridge_node = Node(
+        package='rosbridge_server',
+        executable='rosbridge_websocket',
+        name='rosbridge_websocket',
+        output='screen',
+        parameters=[{'use_sim_time': False}],
+    )
+
     # Add actions to the launch description
     # ld.add_action(microros_launch)
     ld.add_action(state_launch)
     ld.add_action(navigate_launch)
+    ld.add_action(rosbridge_node)
     # ld.add_action(monitor_launch)
 
     return ld

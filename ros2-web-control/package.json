@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "createjs": "^1.0.0",
+    "ros2d": "^0.10.0",
+    "ros3d": "^1.1.0",
+    "roslib": "^1.4.1"
+  }
+}

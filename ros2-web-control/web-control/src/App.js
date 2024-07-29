@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Terminal } from 'xterm';
 import 'xterm/css/xterm.css';
 import ROSLIB from 'roslib';
+import createjs from 'createjs/builds/1.0.0/createjs';
+import ROS2D from '../node_modules/ros2d/src/Ros2D';
 import './App.css';
 
 const App = () => {

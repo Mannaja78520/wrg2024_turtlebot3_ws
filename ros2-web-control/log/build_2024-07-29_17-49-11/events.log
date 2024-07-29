@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.000244] (gyp) JobQueued: {'identifier': 'gyp', 'dependencies': OrderedDict()}
+[0.000328] (nan) JobQueued: {'identifier': 'nan', 'dependencies': OrderedDict()}
+[0.000350] (gyp) JobStarted: {'identifier': 'gyp'}
+[0.014008] (nan) JobStarted: {'identifier': 'nan'}
+[0.099278] (-) TimerEvent: {}
+[0.199529] (-) TimerEvent: {}
+[0.291920] (nan) JobProgress: {'identifier': 'nan', 'progress': 'cmake'}
+[0.292309] (nan) Command: {'cmd': ['/home/mannaja/.local/bin/cmake', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/ros2-web-bridge/node_modules/nan', '-DCMAKE_INSTALL_PREFIX=/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/nan'], 'cwd': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mannaja'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk/lib:/home/mannaja/microros_ws/install/micro_ros_agent/lib:/home/mannaja/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mannaja'), ('OLDPWD', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/web-control'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mannaja/.nvm/versions/node/v20.15.1/bin'), ('NVM_INC', '/home/mannaja/.nvm/versions/node/v20.15.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '16804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mannaja/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install:/home/mannaja/turtlebot3_ws/install:/home/mannaja/microros_ws/install:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mannaja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mannaja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mannaja/.nvm/versions/node/v20.15.1/bin:/home/mannaja/.local/bin:/opt/ros/humble/bin:/home/mannaja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mannaja/.nvm/versions/node/v20.15.1/bin'), ('SESSION_MANAGER', 'local/mannaja:@/tmp/.ICE-unix/1808,unix/mannaja:/tmp/.ICE-unix/1808'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a257a4de_bc66_498a_91e9_8943404e73db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/lib/x86_64-linux-gnu/cmake/gazebo'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9PGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.191'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/mannaja/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core/lib/python3.10/site-packages:/home/mannaja/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs')]), 'shell': False}
+[0.302738] (-) TimerEvent: {}
+[0.403290] (-) TimerEvent: {}
+[0.503577] (-) TimerEvent: {}
+[0.603856] (-) TimerEvent: {}
+[0.638232] (nan) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.703962] (-) TimerEvent: {}
+[0.804279] (-) TimerEvent: {}
+[0.827556] (nan) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.857596] (nan) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.904373] (-) TimerEvent: {}
+[0.931157] (nan) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.958716] (nan) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.961206] (nan) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.965196] (nan) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.975685] (nan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.004471] (-) TimerEvent: {}
+[1.065600] (nan) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.095378] (nan) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.095729] (nan) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.096219] (nan) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.104564] (-) TimerEvent: {}
+[1.204848] (-) TimerEvent: {}
+[1.305083] (-) TimerEvent: {}
+[1.405376] (-) TimerEvent: {}
+[1.505688] (-) TimerEvent: {}
+[1.605920] (-) TimerEvent: {}
+[1.706150] (-) TimerEvent: {}
+[1.806431] (-) TimerEvent: {}
+[1.833890] (nan) StdoutLine: {'line': b'-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed\n'}
+[1.906548] (-) TimerEvent: {}
+[2.007054] (-) TimerEvent: {}
+[2.107623] (-) TimerEvent: {}
+[2.207005] (gyp) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/gyp', 'build', '--build-base', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build', 'install', '--record', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/install.log', '--single-version-externally-managed'], 'cwd': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/webviz/node_modules/node-gyp/gyp', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mannaja', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk/lib:/home/mannaja/microros_ws/install/micro_ros_agent/lib:/home/mannaja/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mannaja', 'OLDPWD': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/web-control', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/mannaja/.nvm/versions/node/v20.15.1/bin', 'NVM_INC': '/home/mannaja/.nvm/versions/node/v20.15.1/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '16804', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/mannaja/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install:/home/mannaja/turtlebot3_ws/install:/home/mannaja/microros_ws/install:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mannaja', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mannaja', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/mannaja/.nvm/versions/node/v20.15.1/bin:/home/mannaja/.local/bin:/opt/ros/humble/bin:/home/mannaja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mannaja/.nvm/versions/node/v20.15.1/bin', 'SESSION_MANAGER': 'local/mannaja:@/tmp/.ICE-unix/1808,unix/mannaja:/tmp/.ICE-unix/1808', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a257a4de_bc66_498a_91e9_8943404e73db', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'gazebo_DIR': '/usr/lib/x86_64-linux-gnu/cmake/gazebo', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y9PGR2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.191', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/mannaja/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core/lib/python3.10/site-packages:/home/mannaja/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs'}, 'shell': False}
+[2.210015] (-) TimerEvent: {}
+[2.224080] (nan) StderrLine: {'line': b'npm warn reify Removing non-directory /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/ros2-web-bridge/node_modules/nan/node_modules\n'}
+[2.310115] (-) TimerEvent: {}
+[2.410423] (-) TimerEvent: {}
+[2.510666] (-) TimerEvent: {}
+[2.590139] (gyp) StdoutLine: {'line': b'running egg_info\n'}
+[2.591350] (gyp) StdoutLine: {'line': b'creating ../../../../build/gyp/gyp.egg-info\n'}
+[2.610762] (-) TimerEvent: {}
+[2.711060] (-) TimerEvent: {}
+[2.811366] (-) TimerEvent: {}
+[2.837503] (gyp) StdoutLine: {'line': b'writing ../../../../build/gyp/gyp.egg-info/PKG-INFO\n'}
+[2.837950] (gyp) StdoutLine: {'line': b'writing dependency_links to ../../../../build/gyp/gyp.egg-info/dependency_links.txt\n'}
+[2.838227] (gyp) StdoutLine: {'line': b'writing entry points to ../../../../build/gyp/gyp.egg-info/entry_points.txt\n'}
+[2.838587] (gyp) StdoutLine: {'line': b'writing top-level names to ../../../../build/gyp/gyp.egg-info/top_level.txt\n'}
+[2.838766] (gyp) StdoutLine: {'line': b"writing manifest file '../../../../build/gyp/gyp.egg-info/SOURCES.txt'\n"}
+[2.904604] (gyp) StdoutLine: {'line': b"reading manifest file '../../../../build/gyp/gyp.egg-info/SOURCES.txt'\n"}
+[2.904813] (gyp) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.904931] (gyp) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[2.905917] (gyp) StdoutLine: {'line': b"writing manifest file '../../../../build/gyp/gyp.egg-info/SOURCES.txt'\n"}
+[2.906085] (gyp) StdoutLine: {'line': b'running build\n'}
+[2.906225] (gyp) StdoutLine: {'line': b'running build_py\n'}
+[2.906626] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build\n'}
+[2.906782] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib\n'}
+[2.906956] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.907129] (gyp) StdoutLine: {'line': b'copying pylib/gyp/xcode_ninja.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.907508] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSSettings.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.908105] (gyp) StdoutLine: {'line': b'copying pylib/gyp/input.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.909096] (gyp) StdoutLine: {'line': b'copying pylib/gyp/common_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.909529] (gyp) StdoutLine: {'line': b'copying pylib/gyp/xml_fix.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.909941] (gyp) StdoutLine: {'line': b'copying pylib/gyp/flock_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.910403] (gyp) StdoutLine: {'line': b'copying pylib/gyp/win_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.910861] (gyp) StdoutLine: {'line': b'copying pylib/gyp/__init__.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.911440] (-) TimerEvent: {}
+[2.912962] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSUserFile.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.917355] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSVersion.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.917465] (gyp) StdoutLine: {'line': b'copying pylib/gyp/xcode_emulation.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.917563] (gyp) StdoutLine: {'line': b'copying pylib/gyp/easy_xml_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.917680] (gyp) StdoutLine: {'line': b'copying pylib/gyp/ninja_syntax.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.917776] (gyp) StdoutLine: {'line': b'copying pylib/gyp/xcodeproj_file.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.921039] (gyp) StdoutLine: {'line': b'copying pylib/gyp/easy_xml.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.921411] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSSettings_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.925285] (gyp) StdoutLine: {'line': b'copying pylib/gyp/input_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.925613] (gyp) StdoutLine: {'line': b'copying pylib/gyp/msvs_emulation.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.926092] (gyp) StdoutLine: {'line': b'copying pylib/gyp/mac_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.926545] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSToolFile.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.926920] (gyp) StdoutLine: {'line': b'copying pylib/gyp/common.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.927348] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSNew.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.927825] (gyp) StdoutLine: {'line': b'copying pylib/gyp/simple_copy.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.928249] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSUtil.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.928704] (gyp) StdoutLine: {'line': b'copying pylib/gyp/MSVSProject.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp\n'}
+[2.929368] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.929536] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/eclipse.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.930015] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/gypd.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.930477] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/compile_commands_json.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.930906] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/make.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.931766] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/__init__.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.932042] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/msvs_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.932759] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/dump_dependency_json.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.933146] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/ninja_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.933509] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/xcode_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.933999] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/xcode.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.935034] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/cmake.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.935694] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/android.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.936556] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/msvs.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.937696] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/gypsh.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.938142] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/ninja.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.939442] (gyp) StdoutLine: {'line': b'copying pylib/gyp/generator/analyzer.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator\n'}
+[2.941248] (gyp) StdoutLine: {'line': b'running install\n'}
+[2.948639] (gyp) StdoutLine: {'line': b'running install_lib\n'}
+[2.978501] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.978755] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/xcode_ninja.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.978919] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSSettings.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979038] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/input.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979162] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/common_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979281] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/xml_fix.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979401] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/flock_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979509] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/win_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979623] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/__init__.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979738] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSUserFile.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.979931] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSVersion.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.980187] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/xcode_emulation.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.980475] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/easy_xml_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.980762] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/ninja_syntax.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.980959] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/xcodeproj_file.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981134] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/easy_xml.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981249] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSSettings_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981411] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/input_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981526] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/msvs_emulation.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981683] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/mac_tool.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.981822] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSToolFile.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.982016] (gyp) StdoutLine: {'line': b'creating /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982185] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/eclipse.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982313] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/gypd.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982458] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/compile_commands_json.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982574] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/make.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982684] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/__init__.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982802] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/msvs_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.982979] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/dump_dependency_json.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.983156] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/ninja_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.983311] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/xcode_test.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.983462] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/xcode.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.983678] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/cmake.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.983877] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/android.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.984014] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/msvs.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.984213] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/gypsh.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.984362] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/ninja.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.984539] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/generator/analyzer.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator\n'}
+[2.984684] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/common.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.984794] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSNew.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.984948] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/simple_copy.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.985072] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSUtil.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.985200] (gyp) StdoutLine: {'line': b'copying /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/build/lib/gyp/MSVSProject.py -> /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp\n'}
+[2.985865] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/xcode_ninja.py to xcode_ninja.cpython-310.pyc\n'}
+[2.988018] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSSettings.py to MSVSSettings.cpython-310.pyc\n'}
+[2.993582] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/input.py to input.cpython-310.pyc\n'}
+[3.005055] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/common_test.py to common_test.cpython-310.pyc\n'}
+[3.005608] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/xml_fix.py to xml_fix.cpython-310.pyc\n'}
+[3.006037] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/flock_tool.py to flock_tool.cpython-310.pyc\n'}
+[3.006453] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/win_tool.py to win_tool.cpython-310.pyc\n'}
+[3.008507] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/__init__.py to __init__.cpython-310.pyc\n'}
+[3.010721] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSUserFile.py to MSVSUserFile.cpython-310.pyc\n'}
+[3.011385] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSVersion.py to MSVSVersion.cpython-310.pyc\n'}
+[3.011476] (-) TimerEvent: {}
+[3.012808] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/xcode_emulation.py to xcode_emulation.cpython-310.pyc\n'}
+[3.019386] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/easy_xml_test.py to easy_xml_test.cpython-310.pyc\n'}
+[3.020208] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/ninja_syntax.py to ninja_syntax.cpython-310.pyc\n'}
+[3.021230] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/xcodeproj_file.py to xcodeproj_file.cpython-310.pyc\n'}
+[3.030558] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/easy_xml.py to easy_xml.cpython-310.pyc\n'}
+[3.031285] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSSettings_test.py to MSVSSettings_test.cpython-310.pyc\n'}
+[3.035393] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/input_test.py to input_test.cpython-310.pyc\n'}
+[3.036121] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/msvs_emulation.py to msvs_emulation.cpython-310.pyc\n'}
+[3.042168] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/mac_tool.py to mac_tool.cpython-310.pyc\n'}
+[3.044876] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSToolFile.py to MSVSToolFile.cpython-310.pyc\n'}
+[3.045310] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/eclipse.py to eclipse.cpython-310.pyc\n'}
+[3.047305] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/gypd.py to gypd.cpython-310.pyc\n'}
+[3.047729] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/compile_commands_json.py to compile_commands_json.cpython-310.pyc\n'}
+[3.048498] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/make.py to make.cpython-310.pyc\n'}
+[3.056993] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/__init__.py to __init__.cpython-310.pyc\n'}
+[3.057315] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/msvs_test.py to msvs_test.cpython-310.pyc\n'}
+[3.057708] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/dump_dependency_json.py to dump_dependency_json.cpython-310.pyc\n'}
+[3.058407] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/ninja_test.py to ninja_test.cpython-310.pyc\n'}
+[3.058884] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/xcode_test.py to xcode_test.cpython-310.pyc\n'}
+[3.059337] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/xcode.py to xcode.cpython-310.pyc\n'}
+[3.063559] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/cmake.py to cmake.cpython-310.pyc\n'}
+[3.068957] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/android.py to android.cpython-310.pyc\n'}
+[3.073062] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/msvs.py to msvs.cpython-310.pyc\n'}
+[3.089632] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/gypsh.py to gypsh.cpython-310.pyc\n'}
+[3.089919] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/ninja.py to ninja.cpython-310.pyc\n'}
+[3.100831] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/generator/analyzer.py to analyzer.cpython-310.pyc\n'}
+[3.103841] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/common.py to common.cpython-310.pyc\n'}
+[3.106570] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSNew.py to MSVSNew.cpython-310.pyc\n'}
+[3.108108] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/simple_copy.py to simple_copy.cpython-310.pyc\n'}
+[3.108874] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSUtil.py to MSVSUtil.cpython-310.pyc\n'}
+[3.110047] (gyp) StdoutLine: {'line': b'byte-compiling /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp/MSVSProject.py to MSVSProject.cpython-310.pyc\n'}
+[3.110812] (gyp) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.111552] (-) TimerEvent: {}
+[3.140737] (gyp) StdoutLine: {'line': b'Copying ../../../../build/gyp/gyp.egg-info to /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/lib/python3.10/site-packages/gyp-0.1-py3.10.egg-info\n'}
+[3.141382] (gyp) StdoutLine: {'line': b'running install_scripts\n'}
+[3.211639] (-) TimerEvent: {}
+[3.218468] (gyp) StdoutLine: {'line': b'Installing gyp script to /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/install/gyp/bin\n'}
+[3.219460] (gyp) StdoutLine: {'line': b"writing list of installed files to '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/gyp/install.log'\n"}
+[3.251735] (gyp) CommandEnded: {'returncode': 0}
+[3.281624] (gyp) JobEnded: {'identifier': 'gyp', 'rc': 0}
+[3.311770] (-) TimerEvent: {}
+[3.412027] (-) TimerEvent: {}
+[3.512317] (-) TimerEvent: {}
+[3.612648] (-) TimerEvent: {}
+[3.713047] (-) TimerEvent: {}
+[3.813549] (-) TimerEvent: {}
+[3.913819] (-) TimerEvent: {}
+[4.014066] (-) TimerEvent: {}
+[4.114334] (-) TimerEvent: {}
+[4.214684] (-) TimerEvent: {}
+[4.315282] (-) TimerEvent: {}
+[4.415957] (-) TimerEvent: {}
+[4.516579] (-) TimerEvent: {}
+[4.617275] (-) TimerEvent: {}
+[4.717608] (-) TimerEvent: {}
+[4.818021] (-) TimerEvent: {}
+[4.918440] (-) TimerEvent: {}
+[5.019108] (-) TimerEvent: {}
+[5.119415] (-) TimerEvent: {}
+[5.219758] (-) TimerEvent: {}
+[5.320070] (-) TimerEvent: {}
+[5.420355] (-) TimerEvent: {}
+[5.520699] (-) TimerEvent: {}
+[5.620932] (-) TimerEvent: {}
+[5.721261] (-) TimerEvent: {}
+[5.821896] (-) TimerEvent: {}
+[5.922457] (-) TimerEvent: {}
+[6.022800] (-) TimerEvent: {}
+[6.123570] (-) TimerEvent: {}
+[6.224330] (-) TimerEvent: {}
+[6.325046] (-) TimerEvent: {}
+[6.425418] (-) TimerEvent: {}
+[6.525936] (-) TimerEvent: {}
+[6.626539] (-) TimerEvent: {}
+[6.726817] (-) TimerEvent: {}
+[6.827161] (-) TimerEvent: {}
+[6.927521] (-) TimerEvent: {}
+[7.028128] (-) TimerEvent: {}
+[7.128667] (-) TimerEvent: {}
+[7.229035] (-) TimerEvent: {}
+[7.329568] (-) TimerEvent: {}
+[7.429943] (-) TimerEvent: {}
+[7.530625] (-) TimerEvent: {}
+[7.631221] (-) TimerEvent: {}
+[7.731546] (-) TimerEvent: {}
+[7.831894] (-) TimerEvent: {}
+[7.932317] (-) TimerEvent: {}
+[8.032948] (-) TimerEvent: {}
+[8.133561] (-) TimerEvent: {}
+[8.234149] (-) TimerEvent: {}
+[8.334691] (-) TimerEvent: {}
+[8.435024] (-) TimerEvent: {}
+[8.535371] (-) TimerEvent: {}
+[8.636135] (-) TimerEvent: {}
+[8.736754] (-) TimerEvent: {}
+[8.837447] (-) TimerEvent: {}
+[8.938116] (-) TimerEvent: {}
+[9.038536] (-) TimerEvent: {}
+[9.138998] (-) TimerEvent: {}
+[9.239425] (-) TimerEvent: {}
+[9.340054] (-) TimerEvent: {}
+[9.440404] (-) TimerEvent: {}
+[9.540789] (-) TimerEvent: {}
+[9.641279] (-) TimerEvent: {}
+[9.741685] (-) TimerEvent: {}
+[9.842504] (-) TimerEvent: {}
+[9.943312] (-) TimerEvent: {}
+[10.043827] (-) TimerEvent: {}
+[10.144685] (-) TimerEvent: {}
+[10.245452] (-) TimerEvent: {}
+[10.346099] (-) TimerEvent: {}
+[10.446733] (-) TimerEvent: {}
+[10.547408] (-) TimerEvent: {}
+[10.647928] (-) TimerEvent: {}
+[10.748184] (-) TimerEvent: {}
+[10.848454] (-) TimerEvent: {}
+[10.948815] (-) TimerEvent: {}
+[11.049474] (-) TimerEvent: {}
+[11.150118] (-) TimerEvent: {}
+[11.250756] (-) TimerEvent: {}
+[11.351557] (-) TimerEvent: {}
+[11.452227] (-) TimerEvent: {}
+[11.552895] (-) TimerEvent: {}
+[11.653680] (-) TimerEvent: {}
+[11.754314] (-) TimerEvent: {}
+[11.854677] (-) TimerEvent: {}
+[11.955343] (-) TimerEvent: {}
+[12.056012] (-) TimerEvent: {}
+[12.156701] (-) TimerEvent: {}
+[12.257041] (-) TimerEvent: {}
+[12.357745] (-) TimerEvent: {}
+[12.458342] (-) TimerEvent: {}
+[12.558691] (-) TimerEvent: {}
+[12.659124] (-) TimerEvent: {}
+[12.759772] (-) TimerEvent: {}
+[12.860451] (-) TimerEvent: {}
+[12.961037] (-) TimerEvent: {}
+[13.061684] (-) TimerEvent: {}
+[13.162363] (-) TimerEvent: {}
+[13.262869] (-) TimerEvent: {}
+[13.363170] (-) TimerEvent: {}
+[13.463502] (-) TimerEvent: {}
+[13.563921] (-) TimerEvent: {}
+[13.664297] (-) TimerEvent: {}
+[13.764968] (-) TimerEvent: {}
+[13.865624] (-) TimerEvent: {}
+[13.966395] (-) TimerEvent: {}
+[14.066733] (-) TimerEvent: {}
+[14.167176] (-) TimerEvent: {}
+[14.268003] (-) TimerEvent: {}
+[14.368792] (-) TimerEvent: {}
+[14.469339] (-) TimerEvent: {}
+[14.569767] (-) TimerEvent: {}
+[14.670025] (-) TimerEvent: {}
+[14.770418] (-) TimerEvent: {}
+[14.871023] (-) TimerEvent: {}
+[14.971665] (-) TimerEvent: {}
+[15.072292] (-) TimerEvent: {}
+[15.172950] (-) TimerEvent: {}
+[15.273518] (-) TimerEvent: {}
+[15.374000] (-) TimerEvent: {}
+[15.474472] (-) TimerEvent: {}
+[15.574957] (-) TimerEvent: {}
+[15.675584] (-) TimerEvent: {}
+[15.776206] (-) TimerEvent: {}
+[15.876755] (-) TimerEvent: {}
+[15.977102] (-) TimerEvent: {}
+[16.077798] (-) TimerEvent: {}
+[16.178199] (-) TimerEvent: {}
+[16.278860] (-) TimerEvent: {}
+[16.379509] (-) TimerEvent: {}
+[16.480167] (-) TimerEvent: {}
+[16.580822] (-) TimerEvent: {}
+[16.681519] (-) TimerEvent: {}
+[16.782468] (-) TimerEvent: {}
+[16.883123] (-) TimerEvent: {}
+[16.983779] (-) TimerEvent: {}
+[17.084406] (-) TimerEvent: {}
+[17.184854] (-) TimerEvent: {}
+[17.285168] (-) TimerEvent: {}
+[17.385527] (-) TimerEvent: {}
+[17.486047] (-) TimerEvent: {}
+[17.586698] (-) TimerEvent: {}
+[17.687319] (-) TimerEvent: {}
+[17.787967] (-) TimerEvent: {}
+[17.888602] (-) TimerEvent: {}
+[17.989202] (-) TimerEvent: {}
+[18.089463] (-) TimerEvent: {}
+[18.189724] (-) TimerEvent: {}
+[18.290063] (-) TimerEvent: {}
+[18.390410] (-) TimerEvent: {}
+[18.490802] (-) TimerEvent: {}
+[18.591649] (-) TimerEvent: {}
+[18.692527] (-) TimerEvent: {}
+[18.793380] (-) TimerEvent: {}
+[18.894189] (-) TimerEvent: {}
+[18.994933] (-) TimerEvent: {}
+[19.095218] (-) TimerEvent: {}
+[19.195554] (-) TimerEvent: {}
+[19.295954] (-) TimerEvent: {}
+[19.396718] (-) TimerEvent: {}
+[19.497592] (-) TimerEvent: {}
+[19.598388] (-) TimerEvent: {}
+[19.698781] (-) TimerEvent: {}
+[19.799090] (-) TimerEvent: {}
+[19.899443] (-) TimerEvent: {}
+[19.999687] (-) TimerEvent: {}
+[20.090715] (nan) StderrLine: {'line': b'npm warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs\n'}
+[20.092258] (nan) StderrLine: {'line': b'npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.\n'}
+[20.099774] (-) TimerEvent: {}
+[20.147668] (nan) StderrLine: {'line': b'npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported\n'}
+[20.177347] (nan) StderrLine: {'line': b'npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported\n'}
+[20.177510] (nan) StderrLine: {'line': b'npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported\n'}
+[20.177651] (nan) StderrLine: {'line': b'npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported\n'}
+[20.199896] (-) TimerEvent: {}
+[20.241171] (nan) StderrLine: {'line': b'npm warn deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).\n'}
+[20.262515] (nan) StderrLine: {'line': b'npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.\n'}
+[20.277272] (nan) StderrLine: {'line': b'npm warn deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.\n'}
+[20.300013] (-) TimerEvent: {}
+[20.343896] (nan) StderrLine: {'line': b'npm warn deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).\n'}
+[20.361012] (nan) StderrLine: {'line': b'npm warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.\n'}
+[20.385533] (nan) StderrLine: {'line': b'npm warn deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).\n'}
+[20.385860] (nan) StderrLine: {'line': b'npm warn deprecated har-validator@4.2.1: this library is no longer supported\n'}
+[20.400097] (-) TimerEvent: {}
+[20.411314] (nan) StderrLine: {'line': b'npm warn deprecated npmlog@6.0.2: This package is no longer supported.\n'}
+[20.414796] (nan) StderrLine: {'line': b'npm warn deprecated gauge@4.0.4: This package is no longer supported.\n'}
+[20.430104] (nan) StderrLine: {'line': b'npm warn deprecated glob@4.5.3: Glob versions prior to v9 are no longer supported\n'}
+[20.438540] (nan) StderrLine: {'line': b'npm warn deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue\n'}
+[20.443859] (nan) StderrLine: {'line': b'npm warn deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported\n'}
+[20.446723] (nan) StderrLine: {'line': b'npm warn deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.\n'}
+[20.465350] (nan) StderrLine: {'line': b'npm warn deprecated request@2.81.0: request has been deprecated, see https://github.com/request/request/issues/3142\n'}
+[20.500192] (-) TimerEvent: {}
+[20.600433] (-) TimerEvent: {}
+[20.700705] (-) TimerEvent: {}
+[20.800980] (-) TimerEvent: {}
+[20.901211] (-) TimerEvent: {}
+[21.001586] (-) TimerEvent: {}
+[21.102323] (-) TimerEvent: {}
+[21.203014] (-) TimerEvent: {}
+[21.303497] (-) TimerEvent: {}
+[21.404283] (-) TimerEvent: {}
+[21.504854] (-) TimerEvent: {}
+[21.605489] (-) TimerEvent: {}
+[21.706142] (-) TimerEvent: {}
+[21.806757] (-) TimerEvent: {}
+[21.907383] (-) TimerEvent: {}
+[22.008008] (-) TimerEvent: {}
+[22.108537] (-) TimerEvent: {}
+[22.208945] (-) TimerEvent: {}
+[22.309576] (-) TimerEvent: {}
+[22.410168] (-) TimerEvent: {}
+[22.510822] (-) TimerEvent: {}
+[22.611227] (-) TimerEvent: {}
+[22.712000] (-) TimerEvent: {}
+[22.812648] (-) TimerEvent: {}
+[22.913357] (-) TimerEvent: {}
+[23.013750] (-) TimerEvent: {}
+[23.114555] (-) TimerEvent: {}
+[23.215097] (-) TimerEvent: {}
+[23.315912] (-) TimerEvent: {}
+[23.416573] (-) TimerEvent: {}
+[23.516851] (-) TimerEvent: {}
+[23.617086] (-) TimerEvent: {}
+[23.694269] (nan) StdoutLine: {'line': b'-- Configuring done (23.3s)\n'}
+[23.699801] (nan) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[23.701318] (nan) StdoutLine: {'line': b'-- Build files have been written to: /home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan\n'}
+[23.717183] (-) TimerEvent: {}
+[23.722885] (nan) CommandEnded: {'returncode': 0}
+[23.725855] (nan) JobProgress: {'identifier': 'nan', 'progress': 'build'}
+[23.725900] (nan) Command: {'cmd': ['/home/mannaja/.local/bin/cmake', '--build', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan', '--', '-j12', '-l12'], 'cwd': '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mannaja'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk/lib:/home/mannaja/microros_ws/install/micro_ros_agent/lib:/home/mannaja/microros_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mannaja'), ('OLDPWD', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/web-control'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/mannaja/.nvm/versions/node/v20.15.1/bin'), ('NVM_INC', '/home/mannaja/.nvm/versions/node/v20.15.1/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('SYSTEMD_EXEC_PID', '16804'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/mannaja/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install:/home/mannaja/turtlebot3_ws/install:/home/mannaja/microros_ws/install:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mannaja'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mannaja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/mannaja/.nvm/versions/node/v20.15.1/bin:/home/mannaja/.local/bin:/opt/ros/humble/bin:/home/mannaja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mannaja/.nvm/versions/node/v20.15.1/bin'), ('SESSION_MANAGER', 'local/mannaja:@/tmp/.ICE-unix/1808,unix/mannaja:/tmp/.ICE-unix/1808'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a257a4de_bc66_498a_91e9_8943404e73db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/lib/x86_64-linux-gnu/cmake/gazebo'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y9PGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.191'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_example:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/mannaja/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/pi_node/lib/python3.10/site-packages:/home/mannaja/coding/project/python_minecraftDetectMob_andSendDataToRos2/ros2_ws/install/laptop_node/lib/python3.10/site-packages:/home/mannaja/coding/project/ABU2024_Manual/robot_ws/install/robot_core/lib/python3.10/site-packages:/home/mannaja/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_turtlebot3_gazebo:/home/mannaja/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/mannaja/turtlebot3_ws/install/turtlebot3:/home/mannaja/turtlebot3_ws/install/turtlebot3_simulations:/home/mannaja/turtlebot3_ws/install/turtlebot3_bringup:/home/mannaja/turtlebot3_ws/install/turtlebot3_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_navigation2:/home/mannaja/turtlebot3_ws/install/turtlebot3_fake_node:/home/mannaja/turtlebot3_ws/install/turtlebot3_msgs:/home/mannaja/turtlebot3_ws/install/turtlebot3_gazebo:/home/mannaja/turtlebot3_ws/install/turtlebot3_description:/home/mannaja/turtlebot3_ws/install/turtlebot3_cartographer:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/mannaja/turtlebot3_ws/install/dynamixel_sdk:/home/mannaja/microros_ws/install/micro_ros_setup:/home/mannaja/microros_ws/install/micro_ros_agent:/home/mannaja/microros_ws/install/micro_ros_msgs')]), 'shell': False}
+[23.817273] (-) TimerEvent: {}
+[23.842346] (nan) CommandEnded: {'returncode': 0}
+[23.917394] (-) TimerEvent: {}
+[23.952803] (nan) JobEnded: {'identifier': 'nan', 'rc': 0}
+[23.953638] (-) EventReactorShutdown: {}

@@ -19,7 +19,7 @@ amcl:
     laser_model_type: "likelihood_field"
     max_beams: 60
     max_particles: 3500
-    min_particles: 600
+    min_particles: 700
     odom_frame_id: "odom"
     pf_err: 0.05
     pf_z: 0.99
@@ -28,7 +28,7 @@ amcl:
     resample_interval: 2
     robot_model_type: "nav2_amcl::DifferentialMotionModel"
     save_pose_rate: 5.0
-    sigma_hit: 0.05
+    sigma_hit: 0.03
     tf_broadcast: true
     transform_tolerance: 1.0
     update_min_a: 0.00
@@ -119,7 +119,7 @@ controller_server:
     general_goal_checker:
       stateful: False
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.1
+      xy_goal_tolerance: 0.07
       yaw_goal_tolerance: 0.035
 
     FollowPath:
@@ -127,13 +127,13 @@ controller_server:
       time_steps: 56
       model_dt: 0.05
       batch_size: 2000
-      vx_std: 0.6
+      vx_std: 1.3
       vy_std: 0.0
-      wz_std: 1.53
-      vx_max: 0.8 #0.22
-      vx_min: -0.8 #-0.22
+      wz_std: 2.0
+      vx_max: 2.0 #0.22
+      vx_min: -2.0 #-0.22
       vy_max: 0.0
-      wz_max: 2.35 #2.84
+      wz_max: 3.5 #2.84
       iteration_count: 1
       prune_distance: 1.7
       transform_tolerance: 0.1
@@ -154,8 +154,8 @@ controller_server:
       GoalCritic:
         enabled: true
         cost_power: 1
-        cost_weight: 5.0
-        threshold_to_consider: 0.8
+        cost_weight: 9.0
+        threshold_to_consider: 0.5
       GoalAngleCritic:
         enabled: true
         cost_power: 1
@@ -212,7 +212,7 @@ controller_server:
         enabled: true
         cost_power: 1
         cost_weight: 35.0
-        deadband_velocities: [0.12, 0.12, 0.08]
+        deadband_velocities: [0.1, 0.1, 0.06]
       TwirlingCritic:
         enabled: true
         twirling_cost_power: 1

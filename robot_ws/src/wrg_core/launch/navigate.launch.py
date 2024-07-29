@@ -15,7 +15,6 @@
 # Author: Darby Lim
 
 import os
-
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, ExecuteProcess
@@ -23,8 +22,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
-TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
-
+TURTLEBOT3_MODEL = os.environ.get('TURTLEBOT3_MODEL', 'burger')
 
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
@@ -33,28 +31,34 @@ def generate_launch_description():
         default=os.path.join(
             get_package_share_directory('wrg_core'),
             'map',
-            'wrg_map.yaml'))
+            'wrg2024_map.yaml'
+        )
+    )
 
-    param_file_name = TURTLEBOT3_MODEL + '.yaml'
+    param_file_name = f'{TURTLEBOT3_MODEL}.yaml'
     param_dir = LaunchConfiguration(
         'params_file',
         default=os.path.join(
             get_package_share_directory('wrg_core'),
             'param',
-            param_file_name))
+            param_file_name
+        )
+    )
 
     nav2_launch_file_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
     rviz_config_dir = os.path.join(
         get_package_share_directory('nav2_bringup'),
         'rviz',
-        'nav2_default_view.rviz')
+        'nav2_default_view.rviz'
+    )
 
+    # Define nodes and include launch files
     navigate_node = Node(
-        package="wrg_core",
-        executable="navigate.py",
-        name="navigate_node",
-        # output="screen",
+        package='wrg_core',
+        executable='navigate.py',
+        name='navigate_node',
+        output='screen',
         on_exit=[
             ExecuteProcess(
                 cmd=['killall', 'navigate.py'],
@@ -62,36 +66,42 @@ def generate_launch_description():
             )
         ]
     )
-        
-    wrg_gazebo_launch_file_dir = os.path.join(get_package_share_directory('wrg_turtlebot3_gazebo'), 'launch')
+    
+    gazebo_launch_file_dir = os.path.join(get_package_share_directory('wrg_turtlebot3_gazebo'), 'launch')
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(wrg_gazebo_launch_file_dir, 'wrg_world.launch.py')
+            os.path.join(gazebo_launch_file_dir, 'wrg_world.launch.py')
         )
     )
-    
+
     return LaunchDescription([
         DeclareLaunchArgument(
             'map',
             default_value=map_dir,
-            description='Full path to map file to load'),
+            description='Full path to map file to load'
+        ),
 
         DeclareLaunchArgument(
             'params_file',
             default_value=param_dir,
-            description='Full path to param file to load'),
+            description='Full path to param file to load'
+        ),
 
         DeclareLaunchArgument(
             'use_sim_time',
             default_value='false',
-            description='Use simulation (Gazebo) clock if true'),
+            description='Use simulation (Gazebo) clock if true'
+        ),
 
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource([nav2_launch_file_dir, '/bringup_launch.py']),
+            PythonLaunchDescriptionSource(
+                os.path.join(nav2_launch_file_dir, 'bringup_launch.py')
+            ),
             launch_arguments={
                 'map': map_dir,
                 'use_sim_time': use_sim_time,
-                'params_file': param_dir}.items(),
+                'params_file': param_dir
+            }.items(),
         ),
 
         Node(
