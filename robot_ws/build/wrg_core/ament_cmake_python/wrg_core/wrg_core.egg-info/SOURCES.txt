@@ -1,6 +1,0 @@
-setup.py
-wrg_core/__init__.py
-wrg_core.egg-info/PKG-INFO
-wrg_core.egg-info/SOURCES.txt
-wrg_core.egg-info/dependency_links.txt
-wrg_core.egg-info/top_level.txt
