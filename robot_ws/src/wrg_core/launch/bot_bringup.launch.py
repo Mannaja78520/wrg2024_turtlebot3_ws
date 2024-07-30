@@ -37,6 +37,12 @@ def generate_launch_description():
             os.path.join(launch_file_dir, 'monitor.launch.py')
         )
     )
+    
+    rviz_node = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(launch_file_dir, 'rviz.launch.py')
+        )
+    )
 
     rosbridge_node = Node(
         package='rosbridge_server',
@@ -47,7 +53,8 @@ def generate_launch_description():
     )
 
     # Add actions to the launch description
-    # ld.add_action(microros_launch)
+    # ld.add_action(rviz_node)
+    ld.add_action(microros_launch)
     ld.add_action(state_launch)
     ld.add_action(navigate_launch)
     ld.add_action(rosbridge_node)

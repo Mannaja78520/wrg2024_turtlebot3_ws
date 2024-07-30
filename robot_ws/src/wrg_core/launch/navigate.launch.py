@@ -58,11 +58,11 @@ def generate_launch_description():
         package='wrg_core',
         executable='navigate.py',
         name='navigate_node',
-        output='screen',
+        # output='screen',
         on_exit=[
             ExecuteProcess(
                 cmd=['killall', 'navigate.py'],
-                output='screen'
+                # output='screen'
             )
         ]
     )
@@ -104,20 +104,20 @@ def generate_launch_description():
             }.items(),
         ),
 
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            arguments=['-d', rviz_config_dir],
-            parameters=[{'use_sim_time': use_sim_time}],
-            output='screen',
-            on_exit=[
-                ExecuteProcess(
-                    cmd=['killall', 'rviz2'],
-                    output='screen'
-                )
-            ]
-        ),
+        # Node(
+        #     package='rviz2',
+        #     executable='rviz2',
+        #     name='rviz2',
+        #     arguments=['-d', rviz_config_dir],
+        #     parameters=[{'use_sim_time': use_sim_time}],
+        #     output='screen',
+        #     on_exit=[
+        #         ExecuteProcess(
+        #             cmd=['killall', 'rviz2'],
+        #             output='screen'
+        #         )
+        #     ]
+        # ),
         
         navigate_node,
         # gazebo_launch,
