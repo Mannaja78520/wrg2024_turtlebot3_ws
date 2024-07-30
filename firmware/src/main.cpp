@@ -18,8 +18,8 @@ rcl_service_t servo_service;
 std_srvs__srv__SetBool_Request req;
 std_srvs__srv__SetBool_Response res;
 rcl_node_options_t node_ops = rcl_node_get_default_options();
-node_ops.domain_id = 10;
-RCCHECK(rclc_node_init_with_options(&node, "my_node_name", "", &support, &node_ops));
+// node_ops.domain_id = 10;
+// RCCHECK(rclc_node_init_with_options(&node, "my_node_name", "", &support, &node_ops));
 
 Servo myservo; // Declare a variable to control the servo
 
@@ -54,7 +54,6 @@ void setup() {
 
   // Create init_options
   rclc_support_init(&support, 0, NULL, &allocator);
-
   // Create node
   rclc_node_init_default(&node, "servo_node", "", &support);
 

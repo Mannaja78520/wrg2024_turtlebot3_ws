@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Terminal } from 'xterm';
 import 'xterm/css/xterm.css';
-import ROSLIB from 'roslib';
-import createjs from 'createjs/builds/1.0.0/createjs';
-import ROS2D from '../node_modules/ros2d/src/Ros2D';
+// import ROSLIB from 'roslib';
+
+// import createjs from 'createjs/builds/1.0.0/createjs';
+// import ROS2D from 'ros2d/build/ros2d';
 import './App.css';
 
 const App = () => {
@@ -232,6 +233,7 @@ const App = () => {
       <div className="terminal-container">
         <div className="terminal" ref={terminalRef}></div>
       </div>
+      
       <div className="room-controls">
         {roomValues.map((value, index) => (
           <div key={index} className="room-row">

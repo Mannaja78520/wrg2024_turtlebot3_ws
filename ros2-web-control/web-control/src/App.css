@@ -160,15 +160,15 @@
 }
 
 .state-init {
-  background-color: #d0f0c0;
+  background-color: #007bff;
 }
 
 .state-start {
-  background-color: #f0e68c;
+  background-color: #28a745;
 }
 
 .state-retry {
-  background-color: #ffcccb;
+  background-color: #ffc107;
 }
 
 .state-reset {
@@ -241,7 +241,7 @@
   }
 
   .terminal-container {
-    width: 80%;
+    width: 48%;
     height: 60vh;
   }
 

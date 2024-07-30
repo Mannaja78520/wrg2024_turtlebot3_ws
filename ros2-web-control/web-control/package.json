@@ -9,13 +9,16 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "createjs": "^1.0.1",
+    "cors": "^2.8.5",
+    "createjs": "^1.0.0",
     "eventemitter2": "^6.4.9",
+    "express": "^4.19.2",
+    "rclnodejs": "^0.27.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
     "ros2d": "^0.10.0",
-    "roslib": "^1.2.1",
+    "roslib": "^1.4.1",
     "webpack": "^5.93.0",
     "xterm": "^5.1.0"
   },

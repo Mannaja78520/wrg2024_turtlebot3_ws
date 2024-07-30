@@ -10,7 +10,7 @@ def generate_launch_description():
         package="micro_ros_agent",
         executable="micro_ros_agent",
         # output="screen",
-        arguments=["serial", "--dev", "/dev/ttyACM0"],
+        arguments=["serial", "--dev", "/dev/ttyUSB1"],
         on_exit=[
             ExecuteProcess(
                 cmd=['killall', 'micro_ros_agent'],
