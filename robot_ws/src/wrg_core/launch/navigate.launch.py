@@ -66,13 +66,6 @@ def generate_launch_description():
             )
         ]
     )
-    
-    gazebo_launch_file_dir = os.path.join(get_package_share_directory('wrg_turtlebot3_gazebo'), 'launch')
-    gazebo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(gazebo_launch_file_dir, 'wrg_world.launch.py')
-        )
-    )
 
     return LaunchDescription([
         DeclareLaunchArgument(
