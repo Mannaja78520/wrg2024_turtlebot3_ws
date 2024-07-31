@@ -14,7 +14,7 @@ def generate_launch_description():
         on_exit=[
             ExecuteProcess(
                 cmd=['killall', 'micro_ros_agent'],
-                output='screen'
+                # output='screen'
             )
         ]
     )

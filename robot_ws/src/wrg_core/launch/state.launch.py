@@ -26,7 +26,7 @@ def generate_launch_description():
         on_exit=[
             ExecuteProcess(
                 cmd=['killall', 'monitoring_node.py'],
-                output='screen'
+                # output='screen'
             )
         ]
     )

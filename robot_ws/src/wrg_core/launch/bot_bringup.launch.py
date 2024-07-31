@@ -11,6 +11,12 @@ def generate_launch_description():
     # Define the path to the launch file directory
     launch_file_dir = os.path.join(get_package_share_directory('wrg_core'), 'launch')
     
+    turtlebot3_launch = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(launch_file_dir, 'turtlebot3_bringup.launch.py')
+        )
+    )
+    
     # Include microros.launch.py
     microros_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -54,6 +60,7 @@ def generate_launch_description():
 
     # Add actions to the launch description
     # ld.add_action(rviz_node)
+    ld.add_action(turtlebot3_launch)
     ld.add_action(microros_launch)
     ld.add_action(state_launch)
     ld.add_action(navigate_launch)

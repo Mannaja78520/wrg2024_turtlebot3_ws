@@ -1,6 +1,0 @@
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/lint.dir
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/test.dir
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/forcetest.dir
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/docs.dir
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/edit_cache.dir
-/home/mannaja/wrg2024_turtlebot3_ws/ros2-web-control/build/nan/CMakeFiles/rebuild_cache.dir

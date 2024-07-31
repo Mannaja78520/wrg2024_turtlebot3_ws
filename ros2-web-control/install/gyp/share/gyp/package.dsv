@@ -1,9 +1,0 @@
-source;share/gyp/hook/path.ps1
-source;share/gyp/hook/path.dsv
-source;share/gyp/hook/path.sh
-source;share/gyp/hook/pythonpath.ps1
-source;share/gyp/hook/pythonpath.dsv
-source;share/gyp/hook/pythonpath.sh
-source;share/gyp/hook/pythonscriptspath.ps1
-source;share/gyp/hook/pythonscriptspath.dsv
-source;share/gyp/hook/pythonscriptspath.sh
