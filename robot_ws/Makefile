@@ -5,7 +5,7 @@ sim := False
 rm:
 	rm -rf build install log
 colcon:
-	colcon build --symlink-install --cmake-args -Wno-dev
+	colcon build --symlink-install --cmake-args -Wno-dev --packages-select wrg_core
 	chmod +x make.sh
 	. ~/.bashrc
 bringup:

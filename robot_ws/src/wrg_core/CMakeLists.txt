@@ -55,7 +55,6 @@ install(PROGRAMS
   scripts/navigate.py
   scripts/robot_main_state.py
   scripts/talker.py
-  scripts/push_servo.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

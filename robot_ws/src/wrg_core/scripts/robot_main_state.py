@@ -53,6 +53,13 @@ class RobotMainState(Node):
             "/robot/target_nav_goal",
             qos_profile=qos.qos_profile_system_default,
         )
+        
+        self.use_servo_pub = self.create_publisher(
+            Bool,
+            '/power_sub',
+            qos_profile=qos.qos_profile_system_default,
+        )
+        
         self.pub_cancle_nav = self.create_publisher(
             Bool,
             "/robot/cancel_nav",
@@ -75,6 +82,10 @@ class RobotMainState(Node):
             "/goal/state",
             self.sub_goal_state_callback,
             qos_profile=qos.qos_profile_sensor_data,
+        )
+        self.move_robot_pub = self.create_publisher(
+            Twist, "/cmd_vel",
+            qos_profile=qos.qos_profile_system_default,
         )
 
         self.robot_state = "None"
@@ -119,10 +130,24 @@ class RobotMainState(Node):
                 self.robot_main_state += 1
             self.__previous_goal_state = goal_state.data
     
+    def push_servo(self):
+        # msg_cancle_nav.data = True
+        # self.pub_cancle_nav.publish(msg_cancle_nav)
+        msg_servo_pub = Bool(data=True)
+        self.use_servo_pub.publish(msg_servo_pub)
+        time.sleep(3)
+        move_robot_msg = Twist(angular_z=-0.8)
+        self.move_robot_pub.publish(move_robot_msg)
+        time.sleep(3)   
+        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+        
+    
     def timer_callback(self):
         msg_ip = Float32MultiArray()
         msg_goal = Float32MultiArray()
         msg_cancle_nav = Bool(data = False)
+        # msg_servo_pub = Bool(data = False)
+        
         if self.robot_state in ["None", "Init", "Retry"]:
             self.__previous_robot_main_state = -1
             self.i = 0
@@ -148,24 +173,29 @@ class RobotMainState(Node):
                     self.pub_goal.publish(msg_goal)
                 elif 0 < self.robot_main_state < 6:
                     if self.room > 0:
-                        msg_cancle_nav.data = True
-                        self.pub_cancle_nav.publish(msg_cancle_nav)
-                        time.sleep(3)
+                        self.push_servo
+                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
+                                        
                     # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     # self.pub_ip.publish(msg_ip)
                     msg_goal.data = (self.challenge_room[self.room]).tolist()        
                     self.pub_goal.publish(msg_goal)
                     self.room += 1
                 elif self.robot_main_state == 6:
-                    msg_cancle_nav.data = True
-                    self.pub_cancle_nav.publish(msg_cancle_nav)
-                    time.sleep(3)
+                    self.push_servo
+                    
                     # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     # self.pub_ip.publish(msg_ip)
                     msg_goal.data = np.concatenate(([self.waypoints["challenge_zone"][0], self.waypoints["challenge_zone"][1], 90], 
-                                                    [self.waypoints["sub"][0], self.waypoints["sub"][1], 180], 
-                                                    [self.waypoints["start"][0], self.waypoints["start"][1], 180])).tolist()        
+                                                    [self.waypoints["sub"][0] - 0.3, self.waypoints["sub"][1], 180])).tolist()        
                     self.pub_goal.publish(msg_goal)
+                elif self.robot_main_state == 7:
+                    msg_goal.data = ([self.waypoints["start"][0] - 0.11, self.waypoints["start"][1], 180]).tolist()
+               
                 self.__previous_robot_main_state = self.robot_main_state
             self.i += 1
         

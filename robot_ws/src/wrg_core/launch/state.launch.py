@@ -20,15 +20,9 @@ def generate_launch_description():
         package="wrg_core",
         executable="robot_main_state.py",
         name="robot_main_state_node",
-        # output="screen",
+        output="screen",
         namespace="",
         parameters=[locations],
-        on_exit=[
-            ExecuteProcess(
-                cmd=['killall', 'monitoring_node.py'],
-                # output='screen'
-            )
-        ]
     )
         
     

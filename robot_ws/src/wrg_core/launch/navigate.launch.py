@@ -42,12 +42,6 @@ def generate_launch_description():
         executable='navigate.py',
         name='navigate_node',
         output='screen',
-        on_exit=[
-            ExecuteProcess(
-                cmd=['killall', 'navigate.py'],
-                output='screen'
-            )
-        ]
     )
 
     return LaunchDescription([
@@ -83,12 +77,6 @@ def generate_launch_description():
         #     arguments=['-d', rviz_config_dir],
         #     parameters=[{'use_sim_time': use_sim_time}],
         #     output='screen',
-        #     on_exit=[
-        #         ExecuteProcess(
-        #             cmd=['killall', 'rviz2'],
-        #             output='screen'
-        #         )
-        #     ]
         # ),
         navigate_node,
     ])
