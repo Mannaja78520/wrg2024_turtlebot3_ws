@@ -112,7 +112,8 @@ const App = () => {
   }, [ros, robotState]);
 
   const isAllRowsSelected = () => {
-    return roomValues.every(value => value !== null);
+    // return roomValues.every(value => value !== null);
+    return true
   };
 
   const handleRoomValueChange = (index, value) => {
@@ -126,10 +127,10 @@ const App = () => {
       const validValues = roomValues.map(value => (value === null ? 0 : value)); // Ensure values are numbers
       const uniqueValues = new Set(validValues);
 
-      if (uniqueValues.size !== validValues.length) {
-        alert('Each room must have a unique value. Please choose again.');
-        return;
-      }
+      // if (uniqueValues.size !== validValues.length) {
+      //   alert('Each room must have a unique value. Please choose again.');
+      //   return;
+      // }
 
       if (ros) {
         const challengeLocationTopic = new ROSLIB.Topic({
@@ -253,6 +254,7 @@ const App = () => {
           <button 
             onClick={handlePublishChallengeLocation} 
             className="publish-button"
+            // disabled={!isAllRowsSelected()} // Disable if not all rows are selected
             disabled={!isAllRowsSelected()} // Disable if not all rows are selected
           >
             Publish Challenge Location

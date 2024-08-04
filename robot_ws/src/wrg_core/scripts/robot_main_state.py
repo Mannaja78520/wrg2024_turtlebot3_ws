@@ -117,7 +117,7 @@ class RobotMainState(Node):
                 for room in rooms.data:
                     if room in waypoint_map:
                         new_challenge_room.append(waypoint_map[room])
-                new_challenge_room.append(self.waypoints["challenge_zone"])
+                # new_challenge_room.append(self.waypoints["challenge_zone"])
                 
                 self.challenge_room = new_challenge_room
                 print(f"Updated challenge room: {self.challenge_room}")
@@ -130,23 +130,13 @@ class RobotMainState(Node):
                 self.robot_main_state += 1
             self.__previous_goal_state = goal_state.data
     
-    def push_servo(self):
-        # msg_cancle_nav.data = True
-        # self.pub_cancle_nav.publish(msg_cancle_nav)
-        msg_servo_pub = Bool(data=True)
-        self.use_servo_pub.publish(msg_servo_pub)
-        time.sleep(3)
-        move_robot_msg = Twist(angular_z=-0.8)
-        self.move_robot_pub.publish(move_robot_msg)
-        time.sleep(3)   
-        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-        
-    
     def timer_callback(self):
         msg_ip = Float32MultiArray()
         msg_goal = Float32MultiArray()
         msg_cancle_nav = Bool(data = False)
-        # msg_servo_pub = Bool(data = False)
+        msg_servo_pub = Bool(data = False)
+        move_robot_msg = Twist()
+        print(len(self.challenge_room))
         
         if self.robot_state in ["None", "Init", "Retry"]:
             self.__previous_robot_main_state = -1
@@ -171,30 +161,48 @@ class RobotMainState(Node):
                     msg_goal.data = np.concatenate((self.waypoints["sub"], 
                                                     self.waypoints["challenge_zone"])).tolist()        
                     self.pub_goal.publish(msg_goal)
-                elif 0 < self.robot_main_state < 6:
+                elif 0 < self.robot_main_state < len(self.challenge_room)+1:
                     if self.room > 0:
-                        self.push_servo
-                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-                        self.get_logger().info("htjykguhijok,mnbvghfjhgkjknjlkm")
-                                        
+                        msg_servo_pub.data = True
+                        self.use_servo_pub.publish(msg_servo_pub)
+                        time.sleep(6.5)
+                        move_robot_msg.angular.z=-0.6
+                        self.move_robot_pub.publish(move_robot_msg)
+                        time.sleep(0.3)
+                              
                     # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     # self.pub_ip.publish(msg_ip)
                     msg_goal.data = (self.challenge_room[self.room]).tolist()        
                     self.pub_goal.publish(msg_goal)
                     self.room += 1
-                elif self.robot_main_state == 6:
-                    self.push_servo
+                elif self.robot_main_state == len(self.challenge_room)+1:
+                    msg_servo_pub.data = True
+                    self.use_servo_pub.publish(msg_servo_pub)
+                    time.sleep(6.5)
+                    move_robot_msg.angular.z=-0.6
+                    self.move_robot_pub.publish(move_robot_msg)
+                    time.sleep(0.3)
                     
                     # msg_ip.data = (self.challenge_room[self.room - 1]).tolist()  
                     # self.pub_ip.publish(msg_ip)
-                    msg_goal.data = np.concatenate(([self.waypoints["challenge_zone"][0], self.waypoints["challenge_zone"][1], 90], 
-                                                    [self.waypoints["sub"][0] - 0.3, self.waypoints["sub"][1], 180])).tolist()        
+                    msg_goal.data = [float(self.waypoints["challenge_zone"][0]), float(self.waypoints["challenge_zone"][1]), -90.0]   
                     self.pub_goal.publish(msg_goal)
-                elif self.robot_main_state == 7:
-                    msg_goal.data = ([self.waypoints["start"][0] - 0.11, self.waypoints["start"][1], 180]).tolist()
+                    
+                elif self.robot_main_state == len(self.challenge_room)+2:
+                    
+                    msg_goal.data = [float(self.waypoints["sub"][0] - 0.1), float(self.waypoints["sub"][1]), 0.0]   
+                    self.pub_goal.publish(msg_goal)
+                    
+                elif self.robot_main_state == 8:
+                    msg_goal.data = [float(self.waypoints["start"][0]), float(self.waypoints["start"][1]), 0.0]   
+                    # self.pub_goal.publish(msg_goal)b"][1], 0.0],
+                    #                                 [self.waypoints["start"][0] - 0.1, self.waypoints["
+                    # msg_goal.data = np.concatenate(([self.waypoints["sub"][0] - 0.3, self.waypoints["sub"][1], 0.0],
+                    #                                 [self.waypoints["start"][0] - 0.1, self.waypoints["start"][1], 0.0])).tolist()        
+                    self.pub_goal.publish(msg_goal)
+                    
+                # elif self.robot_main_state == 7:
+                #     msg_goal.data = ([self.waypoints["start"][0] - 0.11, self.waypoints["start"][1], 180]).tolist()
                
                 self.__previous_robot_main_state = self.robot_main_state
             self.i += 1

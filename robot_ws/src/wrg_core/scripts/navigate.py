@@ -107,9 +107,9 @@ class CancelNavigate(Node):
     def sub_cancel_nav_callback(self, cancel_msg: Bool):
         if cancel_msg.data:
             self.navigator.cancelTask()          
-            self.navigator.clearAllCostmaps()
+            # self.navigator.clearAllCostmaps()
             navigate_node.__previous_target_goal = Float32MultiArray()  # Reset the previous target goal
-            time.sleep(1)
+            # time.sleep(1)
 
 def main():
     rclpy.init()

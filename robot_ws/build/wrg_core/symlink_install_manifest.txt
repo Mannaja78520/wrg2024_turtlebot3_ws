@@ -12,15 +12,20 @@
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/maptb3.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.pgm
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.yaml
+/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.pgm
+/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.pgm
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.pgm
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 2.yaml
+/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 3.yaml
+/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 4.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger_native.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/good4.yaml
+/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/gooddddddddddd.yaml
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__init__.py
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__pycache__/utilize.cpython-310.pyc
 /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/monitoring_node.py

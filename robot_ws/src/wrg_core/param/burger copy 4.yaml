@@ -26,7 +26,7 @@ amcl:
     recovery_alpha_fast: 0.1
     recovery_alpha_slow: 0.001
     resample_interval: 1
-    robot_model_type: "nav2_amcl::DifferentialMotionModel"
+    robot_model_type: "nav2_amcl::OmniMotionModel"
     save_pose_rate: 5.0
     sigma_hit: 0.05
     tf_broadcast: true
@@ -113,55 +113,55 @@ controller_server:
     # Progress checker parameters
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
-      required_movement_radius: 0.13
-      movement_time_allowance: 50.0
+      required_movement_radius: 0.1
+      movement_time_allowance: 35.0
     
     general_goal_checker:
       stateful: False
       plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.11
-      yaw_goal_tolerance: 0.1
+      xy_goal_tolerance: 0.13
+      yaw_goal_tolerance: 0.13
 
     FollowPath:
       plugin: "dwb_core::DWBLocalPlanner"
       debug_trajectory_details: True
-      min_vel_x: -0.15
+      min_vel_x: -0.20
       min_vel_y: 0.0
-      max_vel_x: 0.15
+      max_vel_x: 0.20
       max_vel_y: 0.0
       max_vel_theta: 2.84
-      min_speed_xy: -0.15
-      max_speed_xy: 0.15
+      min_speed_xy: -0.20
+      max_speed_xy: 0.20
       min_speed_theta: -2.84
       # Add high threshold velocity for turtlebot 3 issue.
       # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
       acc_lim_x: 1.1
       acc_lim_y: 0.0
-      acc_lim_theta: 1.9
+      acc_lim_theta: 2.3
       decel_lim_x: -1.1
       decel_lim_y: 0.0
-      decel_lim_theta: -1.9
+      decel_lim_theta: -2.3
       vx_samples: 30
       vy_samples: 0
       vtheta_samples: 30
       sim_time: 2.0
-      linear_granularity: 0.11
-      angular_granularity: 0.09
+      linear_granularity: 0.13
+      angular_granularity: 0.10
       transform_tolerance: 0.4
-      xy_goal_tolerance: 0.11
+      xy_goal_tolerance: 0.12
       trans_stopped_velocity: 0.0
       short_circuit_trajectory_evaluation: False
       stateful: True
       critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
-      BaseObstacle.scale: 0.35
-      PathAlign.scale: 250.0
-      PathAlign.forward_point_distance: 0.05
-      GoalAlign.scale: 200.0
-      GoalAlign.forward_point_distance: 0.03
-      PathDist.scale: 250.0
-      GoalDist.scale: 200.0
-      RotateToGoal.scale: 35.0
-      RotateToGoal.slowing_factor: 3.3
+      BaseObstacle.scale: 0.30
+      PathAlign.scale: 170.0
+      PathAlign.forward_point_distance: 0.1
+      GoalAlign.scale: 130.0
+      GoalAlign.forward_point_distance: 0.08
+      PathDist.scale: 180.0
+      GoalDist.scale: 130.0
+      RotateToGoal.scale: 30.0
+      RotateToGoal.slowing_factor: 5.8
       RotateToGoal.lookahead_time: -1.0
       
 controller_server_rclcpp_node:
@@ -185,8 +185,8 @@ local_costmap:
       plugins: ["obstacle_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
-        inflation_radius: 0.07
-        cost_scaling_factor: 0.3
+        inflation_radius: 0.018
+        cost_scaling_factor: 0.5
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
@@ -234,12 +234,12 @@ global_costmap:
       publish_frequency: 1.0
       global_frame: map
       robot_base_frame: base_link
-      use_sim_time: True
+      use_sim_time: false
       # robot_radius: 0.13
       # footprint: "[ [0.121, 0.131], [0.121, -0.141], [-0.091, -0.131], [-0.091, 0.141] ]"
       footprint: "[ [0.115, 0.125], [0.115, -0.135], [-0.085, -0.125], [-0.085, 0.135] ]"
       resolution: 0.05
-      track_unknown_space: true
+      track_unknown_space: false
       plugins: ["static_layer", "obstacle_layer", "voxel_layer", "inflation_layer"]
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
@@ -281,7 +281,7 @@ global_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 7.0
-        inflation_radius: 0.55
+        inflation_radius: 0.53
       always_send_full_costmap: True
   global_costmap_client:
     ros__parameters:
@@ -333,7 +333,7 @@ recoveries_server:
     global_frame: odom
     robot_base_frame: base_link
     transform_timeout: 0.1
-    use_sim_time: true
+    use_sim_time: false
     simulate_ahead_time: 2.0
     max_rotational_vel: 1.0
     min_rotational_vel: 0.4
@@ -396,12 +396,12 @@ velocity_smoother:
     smoothing_frequency: 30.0
     scale_velocities: true
     feedback: "OPEN_LOOP"
-    max_velocity: [0.15, 0.0, 2.84]
-    min_velocity: [-0.15, 0.0, -2.84]
+    max_velocity: [0.2, 0.0, 2.84]
+    min_velocity: [-0.2, 0.0, -2.84]
     deadband_velocity: [0.0, 0.0, 0.0]
     velocity_timeout: 1.0
-    max_accel: [1.1, 0.0, 1.9]
-    max_decel: [-1.1, 0.0, -1.9]
+    max_accel: [1.1, 0.0, 2.3]
+    max_decel: [-1.1, 0.0, -2.3]
     odom_topic: "odom"
     odom_duration: 0.1
     use_realtime_priority: true

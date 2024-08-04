@@ -1,0 +1,92 @@
+[0.073s] Invoking command in '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core -- -j4 -l4
+[0.380s] gmake[1]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.622s] gmake[2]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.633s] gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.675s] gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.682s] gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.718s] gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.753s] Built target ament_cmake_python_symlink_wrg_core
+[0.764s] gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.804s] gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[0.811s] gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[1.893s] running egg_info
+[1.897s] writing wrg_core.egg-info/PKG-INFO
+[1.898s] writing dependency_links to wrg_core.egg-info/dependency_links.txt
+[1.899s] writing top-level names to wrg_core.egg-info/top_level.txt
+[1.912s] reading manifest file 'wrg_core.egg-info/SOURCES.txt'
+[1.914s] writing manifest file 'wrg_core.egg-info/SOURCES.txt'
+[2.008s] gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[2.041s] Built target ament_cmake_python_build_wrg_core_egg
+[2.044s] gmake[2]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[2.074s] gmake[1]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'
+[2.080s] Invoked command in '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core -- -j4 -l4
+[2.259s] Invoking command in '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core
+[2.289s] -- Install configuration: ""
+[2.294s] -- Execute custom install script
+[2.302s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/bot_bringup.launch.py
+[2.304s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/gazebosim.launch.py
+[2.305s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/microros.launch.py
+[2.307s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/monitor.launch.py
+[2.309s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/navigate.launch.py
+[2.310s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/rviz.launch.py
+[2.312s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/state.launch.py
+[2.313s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/turtlebot3_bringup.launch.py
+[2.317s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/map201.pgm
+[2.318s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/map201.yaml
+[2.319s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/maptb3.pgm
+[2.321s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/maptb3.yaml
+[2.322s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.pgm
+[2.323s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.yaml
+[2.324s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.pgm
+[2.326s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.yaml
+[2.327s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.pgm
+[2.328s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.yaml
+[2.329s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.pgm
+[2.331s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.yaml
+[2.334s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 2.yaml
+[2.335s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 3.yaml
+[2.337s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 4.yaml
+[2.338s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy.yaml
+[2.339s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger.yaml
+[2.341s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger_native.yaml
+[2.342s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/good4.yaml
+[2.343s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/gooddddddddddd.yaml
+[2.347s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__init__.py
+[2.349s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__pycache__/utilize.cpython-310.pyc
+[2.350s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/monitoring_node.py
+[2.352s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/navigate.py
+[2.353s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/robot_main_state.py
+[2.354s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/talker.py
+[2.356s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/tempCodeRunnerFile.py
+[2.357s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/test.py
+[2.358s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/utilize.py
+[2.361s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/wrg_core/__init__.py
+[2.364s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/config/locations.yaml
+[2.365s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/pythonpath.sh
+[2.366s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/pythonpath.dsv
+[2.369s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/PKG-INFO
+[2.370s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/SOURCES.txt
+[2.372s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/dependency_links.txt
+[2.374s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/top_level.txt
+[2.377s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core/__init__.py
+[2.379s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/monitoring_node.py
+[2.380s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/navigate.py
+[2.381s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/robot_main_state.py
+[2.383s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/talker.py
+[2.384s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/package_run_dependencies/wrg_core
+[2.386s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/parent_prefix_path/wrg_core
+[2.388s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.sh
+[2.389s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.dsv
+[2.391s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/path.sh
+[2.392s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/path.dsv
+[2.394s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.bash
+[2.395s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.sh
+[2.396s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.zsh
+[2.397s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.dsv
+[2.398s] -- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/package.dsv
+[2.436s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/packages/wrg_core
+[2.437s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig.cmake
+[2.439s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig-version.cmake
+[2.440s] -- Up-to-date symlink: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/package.xml
+[2.598s] Listing '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core'...
+[2.629s] Invoked command in '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core

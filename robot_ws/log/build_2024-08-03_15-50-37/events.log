@@ -1,0 +1,331 @@
+[0.000000] (-) TimerEvent: {}
+[0.001237] (-) JobUnselected: {'identifier': 'wrg_turtlebot3_gazebo'}
+[0.001468] (wrg_core) JobQueued: {'identifier': 'wrg_core', 'dependencies': OrderedDict()}
+[0.001752] (wrg_core) JobStarted: {'identifier': 'wrg_core'}
+[0.061325] (wrg_core) JobProgress: {'identifier': 'wrg_core', 'progress': 'cmake'}
+[0.062428] (wrg_core) Command: {'cmd': ['/usr/bin/cmake', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/src/wrg_core', '-Wno-dev', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core'], 'cwd': '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_CLIENT', '192.168.86.96 56994 22'), ('USER', 'cmu'), ('XDG_SESSION_TYPE', 'tty'), ('LD_LIBRARY_PATH', '/home/cmu/microros_ws/install/micro_ros_agent/lib:/home/cmu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/cmu'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmu'), ('SSH_TTY', '/dev/pts/5'), ('NVM_BIN', '/home/cmu/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/cmu/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MAKEFLAGS', ''), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/cmu/.nvm'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install:/home/cmu/turtlebot3_ws/install:/home/cmu/microros_ws/install'), ('LOGNAME', 'cmu'), ('_', '/usr/bin/make'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmu/.nvm/versions/node/v20.16.0/bin:/home/cmu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAKELEVEL', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'th_TH.UTF-8'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'), ('TURTLEBOT3_MODEL', 'burger'), ('OPENCR_PORT', '/dev/ttyACM0'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('NVM_CD_FLAGS', ''), ('SSH_CONNECTION', '192.168.86.96 56994 192.168.86.198 22'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/cmu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MFLAGS', ''), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble'), ('OPENCR_MODEL', 'burger')]), 'shell': False}
+[0.098029] (-) TimerEvent: {}
+[0.198866] (-) TimerEvent: {}
+[0.299841] (-) TimerEvent: {}
+[0.400626] (-) TimerEvent: {}
+[0.501334] (-) TimerEvent: {}
+[0.602163] (-) TimerEvent: {}
+[0.703009] (-) TimerEvent: {}
+[0.803811] (-) TimerEvent: {}
+[0.904727] (-) TimerEvent: {}
+[1.005519] (-) TimerEvent: {}
+[1.106516] (-) TimerEvent: {}
+[1.207664] (-) TimerEvent: {}
+[1.264899] (wrg_core) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.307852] (-) TimerEvent: {}
+[1.408679] (-) TimerEvent: {}
+[1.509606] (-) TimerEvent: {}
+[1.610498] (-) TimerEvent: {}
+[1.711402] (-) TimerEvent: {}
+[1.812356] (-) TimerEvent: {}
+[1.913320] (-) TimerEvent: {}
+[1.980495] (wrg_core) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.013492] (-) TimerEvent: {}
+[2.029180] (wrg_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.113804] (-) TimerEvent: {}
+[2.214817] (-) TimerEvent: {}
+[2.315574] (-) TimerEvent: {}
+[2.415134] (wrg_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.415745] (-) TimerEvent: {}
+[2.442103] (wrg_core) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.444596] (wrg_core) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.447246] (wrg_core) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.462155] (wrg_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.515985] (-) TimerEvent: {}
+[2.616776] (-) TimerEvent: {}
+[2.717566] (-) TimerEvent: {}
+[2.818425] (-) TimerEvent: {}
+[2.832861] (wrg_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.861141] (wrg_core) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.862050] (wrg_core) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.863918] (wrg_core) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.907441] (wrg_core) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.918618] (-) TimerEvent: {}
+[3.019340] (-) TimerEvent: {}
+[3.120150] (-) TimerEvent: {}
+[3.220750] (-) TimerEvent: {}
+[3.321433] (-) TimerEvent: {}
+[3.422788] (-) TimerEvent: {}
+[3.523447] (-) TimerEvent: {}
+[3.624110] (-) TimerEvent: {}
+[3.712328] (wrg_core) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.724302] (-) TimerEvent: {}
+[3.825026] (-) TimerEvent: {}
+[3.925667] (-) TimerEvent: {}
+[4.015766] (wrg_core) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.025839] (-) TimerEvent: {}
+[4.126516] (-) TimerEvent: {}
+[4.227132] (-) TimerEvent: {}
+[4.327786] (-) TimerEvent: {}
+[4.428419] (-) TimerEvent: {}
+[4.529053] (-) TimerEvent: {}
+[4.552035] (wrg_core) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[4.629217] (-) TimerEvent: {}
+[4.729877] (-) TimerEvent: {}
+[4.830537] (-) TimerEvent: {}
+[4.931229] (-) TimerEvent: {}
+[5.031878] (-) TimerEvent: {}
+[5.132537] (-) TimerEvent: {}
+[5.200367] (wrg_core) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.232739] (-) TimerEvent: {}
+[5.281605] (wrg_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.332962] (-) TimerEvent: {}
+[5.382889] (wrg_core) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.433685] (-) TimerEvent: {}
+[5.510992] (wrg_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.534084] (-) TimerEvent: {}
+[5.634947] (-) TimerEvent: {}
+[5.692023] (wrg_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.735211] (-) TimerEvent: {}
+[5.835839] (-) TimerEvent: {}
+[5.936957] (-) TimerEvent: {}
+[6.037968] (-) TimerEvent: {}
+[6.138699] (-) TimerEvent: {}
+[6.239406] (-) TimerEvent: {}
+[6.325563] (wrg_core) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[6.339637] (-) TimerEvent: {}
+[6.360855] (wrg_core) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.440566] (-) TimerEvent: {}
+[6.541635] (-) TimerEvent: {}
+[6.642356] (-) TimerEvent: {}
+[6.743231] (-) TimerEvent: {}
+[6.844019] (-) TimerEvent: {}
+[6.906255] (wrg_core) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.944428] (-) TimerEvent: {}
+[6.949795] (wrg_core) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.044649] (-) TimerEvent: {}
+[7.145431] (-) TimerEvent: {}
+[7.246116] (-) TimerEvent: {}
+[7.346953] (-) TimerEvent: {}
+[7.447704] (-) TimerEvent: {}
+[7.548596] (-) TimerEvent: {}
+[7.649368] (-) TimerEvent: {}
+[7.750145] (-) TimerEvent: {}
+[7.767501] (wrg_core) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.850342] (-) TimerEvent: {}
+[7.951079] (-) TimerEvent: {}
+[8.029840] (wrg_core) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.051301] (-) TimerEvent: {}
+[8.152065] (-) TimerEvent: {}
+[8.252923] (-) TimerEvent: {}
+[8.353823] (-) TimerEvent: {}
+[8.454528] (-) TimerEvent: {}
+[8.464570] (wrg_core) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.554826] (-) TimerEvent: {}
+[8.597294] (wrg_core) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.655061] (-) TimerEvent: {}
+[8.755968] (-) TimerEvent: {}
+[8.856773] (-) TimerEvent: {}
+[8.958002] (-) TimerEvent: {}
+[8.974580] (wrg_core) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.975661] (wrg_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.058255] (-) TimerEvent: {}
+[9.159142] (-) TimerEvent: {}
+[9.259943] (-) TimerEvent: {}
+[9.335923] (wrg_core) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.340134] (wrg_core) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.360106] (-) TimerEvent: {}
+[9.460853] (-) TimerEvent: {}
+[9.561605] (-) TimerEvent: {}
+[9.662379] (-) TimerEvent: {}
+[9.763207] (-) TimerEvent: {}
+[9.863894] (-) TimerEvent: {}
+[9.964610] (-) TimerEvent: {}
+[10.029028] (wrg_core) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[10.064792] (-) TimerEvent: {}
+[10.165545] (-) TimerEvent: {}
+[10.266266] (-) TimerEvent: {}
+[10.366990] (-) TimerEvent: {}
+[10.467693] (-) TimerEvent: {}
+[10.568580] (-) TimerEvent: {}
+[10.669285] (-) TimerEvent: {}
+[10.770077] (-) TimerEvent: {}
+[10.870815] (-) TimerEvent: {}
+[10.971727] (-) TimerEvent: {}
+[11.072409] (-) TimerEvent: {}
+[11.173299] (-) TimerEvent: {}
+[11.273999] (-) TimerEvent: {}
+[11.374906] (-) TimerEvent: {}
+[11.428714] (wrg_core) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[11.475097] (-) TimerEvent: {}
+[11.575986] (-) TimerEvent: {}
+[11.608939] (wrg_core) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[11.676259] (-) TimerEvent: {}
+[11.776989] (-) TimerEvent: {}
+[11.838643] (wrg_core) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[11.844905] (wrg_core) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[11.845650] (wrg_core) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[11.877278] (-) TimerEvent: {}
+[11.977959] (-) TimerEvent: {}
+[12.078656] (-) TimerEvent: {}
+[12.179512] (-) TimerEvent: {}
+[12.280176] (-) TimerEvent: {}
+[12.383499] (-) TimerEvent: {}
+[12.484253] (-) TimerEvent: {}
+[12.584962] (-) TimerEvent: {}
+[12.685731] (-) TimerEvent: {}
+[12.786482] (-) TimerEvent: {}
+[12.887452] (-) TimerEvent: {}
+[12.988379] (-) TimerEvent: {}
+[13.089242] (-) TimerEvent: {}
+[13.189912] (-) TimerEvent: {}
+[13.290576] (-) TimerEvent: {}
+[13.391400] (-) TimerEvent: {}
+[13.435228] (wrg_core) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.491546] (-) TimerEvent: {}
+[13.592176] (-) TimerEvent: {}
+[13.692946] (-) TimerEvent: {}
+[13.745480] (wrg_core) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.793294] (-) TimerEvent: {}
+[13.794218] (wrg_core) StdoutLine: {'line': b'-- Generating done\n'}
+[13.801957] (wrg_core) StdoutLine: {'line': b'-- Build files have been written to: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core\n'}
+[13.842751] (wrg_core) CommandEnded: {'returncode': 0}
+[13.844819] (wrg_core) JobProgress: {'identifier': 'wrg_core', 'progress': 'build'}
+[13.847229] (wrg_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core', '--', '-j4', '-l4'], 'cwd': '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_CLIENT', '192.168.86.96 56994 22'), ('USER', 'cmu'), ('XDG_SESSION_TYPE', 'tty'), ('LD_LIBRARY_PATH', '/home/cmu/microros_ws/install/micro_ros_agent/lib:/home/cmu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/cmu'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmu'), ('SSH_TTY', '/dev/pts/5'), ('NVM_BIN', '/home/cmu/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/cmu/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MAKEFLAGS', ''), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/cmu/.nvm'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install:/home/cmu/turtlebot3_ws/install:/home/cmu/microros_ws/install'), ('LOGNAME', 'cmu'), ('_', '/usr/bin/make'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmu/.nvm/versions/node/v20.16.0/bin:/home/cmu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAKELEVEL', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'th_TH.UTF-8'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'), ('TURTLEBOT3_MODEL', 'burger'), ('OPENCR_PORT', '/dev/ttyACM0'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('NVM_CD_FLAGS', ''), ('SSH_CONNECTION', '192.168.86.96 56994 192.168.86.198 22'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/cmu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MFLAGS', ''), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble'), ('OPENCR_MODEL', 'burger')]), 'shell': False}
+[13.888150] (wrg_core) StdoutLine: {'line': b"gmake[1]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[13.893477] (-) TimerEvent: {}
+[13.989046] (wrg_core) StdoutLine: {'line': b"gmake[2]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[13.993742] (-) TimerEvent: {}
+[13.995758] (wrg_core) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.035754] (wrg_core) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.042959] (wrg_core) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.076746] (wrg_core) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.093948] (-) TimerEvent: {}
+[14.111550] (wrg_core) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_wrg_core\n'}
+[14.121046] (wrg_core) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.160160] (wrg_core) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.167364] (wrg_core) StdoutLine: {'line': b"gmake[3]: Entering directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[14.194107] (-) TimerEvent: {}
+[14.294754] (-) TimerEvent: {}
+[14.395477] (-) TimerEvent: {}
+[14.496159] (-) TimerEvent: {}
+[14.596820] (-) TimerEvent: {}
+[14.697505] (-) TimerEvent: {}
+[14.798541] (-) TimerEvent: {}
+[14.899135] (-) TimerEvent: {}
+[14.999750] (-) TimerEvent: {}
+[15.100401] (-) TimerEvent: {}
+[15.201034] (-) TimerEvent: {}
+[15.251366] (wrg_core) StdoutLine: {'line': b'running egg_info\n'}
+[15.253962] (wrg_core) StdoutLine: {'line': b'creating wrg_core.egg-info\n'}
+[15.254863] (wrg_core) StdoutLine: {'line': b'writing wrg_core.egg-info/PKG-INFO\n'}
+[15.255903] (wrg_core) StdoutLine: {'line': b'writing dependency_links to wrg_core.egg-info/dependency_links.txt\n'}
+[15.256760] (wrg_core) StdoutLine: {'line': b'writing top-level names to wrg_core.egg-info/top_level.txt\n'}
+[15.257895] (wrg_core) StdoutLine: {'line': b"writing manifest file 'wrg_core.egg-info/SOURCES.txt'\n"}
+[15.269297] (wrg_core) StdoutLine: {'line': b"reading manifest file 'wrg_core.egg-info/SOURCES.txt'\n"}
+[15.271627] (wrg_core) StdoutLine: {'line': b"writing manifest file 'wrg_core.egg-info/SOURCES.txt'\n"}
+[15.301315] (-) TimerEvent: {}
+[15.366704] (wrg_core) StdoutLine: {'line': b"gmake[3]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[15.401504] (-) TimerEvent: {}
+[15.402213] (wrg_core) StdoutLine: {'line': b'Built target ament_cmake_python_build_wrg_core_egg\n'}
+[15.404999] (wrg_core) StdoutLine: {'line': b"gmake[2]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[15.438958] (wrg_core) StdoutLine: {'line': b"gmake[1]: Leaving directory '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'\n"}
+[15.444448] (wrg_core) CommandEnded: {'returncode': 0}
+[15.501689] (-) TimerEvent: {}
+[15.585606] (wrg_core) JobProgress: {'identifier': 'wrg_core', 'progress': 'install'}
+[15.601989] (-) TimerEvent: {}
+[15.623556] (wrg_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'], 'cwd': '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_CLIENT', '192.168.86.96 56994 22'), ('USER', 'cmu'), ('XDG_SESSION_TYPE', 'tty'), ('LD_LIBRARY_PATH', '/home/cmu/microros_ws/install/micro_ros_agent/lib:/home/cmu/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/cmu'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/cmu'), ('SSH_TTY', '/dev/pts/5'), ('NVM_BIN', '/home/cmu/.nvm/versions/node/v20.16.0/bin'), ('NVM_INC', '/home/cmu/.nvm/versions/node/v20.16.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MAKEFLAGS', ''), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('NVM_DIR', '/home/cmu/.nvm'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install:/home/cmu/turtlebot3_ws/install:/home/cmu/microros_ws/install'), ('LOGNAME', 'cmu'), ('_', '/usr/bin/make'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/cmu/.nvm/versions/node/v20.16.0/bin:/home/cmu/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MAKELEVEL', '1'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/opt/ros/humble'), ('ROS_DOMAIN_ID', '30'), ('LC_NAME', 'th_TH.UTF-8'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/build/wrg_core'), ('TURTLEBOT3_MODEL', 'burger'), ('OPENCR_PORT', '/dev/ttyACM0'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('NVM_CD_FLAGS', ''), ('SSH_CONNECTION', '192.168.86.96 56994 192.168.86.198 22'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/cmu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/cmu/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MFLAGS', ''), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core:/home/cmu/turtlebot3_ws/install/turtlebot3:/home/cmu/turtlebot3_ws/install/turtlebot3_bringup:/home/cmu/turtlebot3_ws/install/turtlebot3_node:/home/cmu/turtlebot3_ws/install/turtlebot3_description:/home/cmu/turtlebot3_ws/install/ld08_driver:/home/cmu/microros_ws/install/micro_ros_setup:/home/cmu/microros_ws/install/micro_ros_agent:/home/cmu/microros_ws/install/micro_ros_msgs:/home/cmu/turtlebot3_ws/install/turtlebot3_teleop:/home/cmu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble'), ('OPENCR_MODEL', 'burger')]), 'shell': False}
+[15.658978] (wrg_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.660634] (wrg_core) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.663139] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/bot_bringup.launch.py\n'}
+[15.698884] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/gazebosim.launch.py\n'}
+[15.702151] (-) TimerEvent: {}
+[15.733379] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/microros.launch.py\n'}
+[15.766567] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/monitor.launch.py\n'}
+[15.799351] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/navigate.launch.py\n'}
+[15.802411] (-) TimerEvent: {}
+[15.831942] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/rviz.launch.py\n'}
+[15.865763] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/state.launch.py\n'}
+[15.899569] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/launch/turtlebot3_bringup.launch.py\n'}
+[15.902576] (-) TimerEvent: {}
+[15.935954] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/map201.pgm\n'}
+[15.970517] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/map201.yaml\n'}
+[16.002834] (-) TimerEvent: {}
+[16.003915] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/maptb3.pgm\n'}
+[16.037338] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/maptb3.yaml\n'}
+[16.070059] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.pgm\n'}
+[16.103040] (-) TimerEvent: {}
+[16.103861] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/tb3_map.yaml\n'}
+[16.137825] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.pgm\n'}
+[16.171462] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg.yaml\n'}
+[16.203273] (-) TimerEvent: {}
+[16.204241] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.pgm\n'}
+[16.238485] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg2024_map.yaml\n'}
+[16.273214] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.pgm\n'}
+[16.303460] (-) TimerEvent: {}
+[16.310496] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/map/wrg_map.yaml\n'}
+[16.346979] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 2.yaml\n'}
+[16.383254] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 3.yaml\n'}
+[16.403644] (-) TimerEvent: {}
+[16.417855] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy 4.yaml\n'}
+[16.454020] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger copy.yaml\n'}
+[16.489957] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger.yaml\n'}
+[16.503849] (-) TimerEvent: {}
+[16.522918] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/burger_native.yaml\n'}
+[16.557401] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/good4.yaml\n'}
+[16.593604] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/param/gooddddddddddd.yaml\n'}
+[16.604065] (-) TimerEvent: {}
+[16.630273] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__init__.py\n'}
+[16.664842] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/__pycache__/utilize.cpython-310.pyc\n'}
+[16.698370] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/monitoring_node.py\n'}
+[16.704231] (-) TimerEvent: {}
+[16.730794] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/navigate.py\n'}
+[16.763633] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/robot_main_state.py\n'}
+[16.796748] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/talker.py\n'}
+[16.804412] (-) TimerEvent: {}
+[16.830534] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/tempCodeRunnerFile.py\n'}
+[16.864404] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/test.py\n'}
+[16.897424] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/scripts/utilize.py\n'}
+[16.904591] (-) TimerEvent: {}
+[16.931928] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/wrg_core/__init__.py\n'}
+[16.965801] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/config/locations.yaml\n'}
+[17.000029] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/pythonpath.sh\n'}
+[17.004764] (-) TimerEvent: {}
+[17.035737] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/pythonpath.dsv\n'}
+[17.072399] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/PKG-INFO\n'}
+[17.105012] (-) TimerEvent: {}
+[17.107500] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/SOURCES.txt\n'}
+[17.141897] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/dependency_links.txt\n'}
+[17.177672] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core-2.1.5-py3.10.egg-info/top_level.txt\n'}
+[17.205222] (-) TimerEvent: {}
+[17.214805] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core/__init__.py\n'}
+[17.250749] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/monitoring_node.py\n'}
+[17.294924] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/navigate.py\n'}
+[17.305435] (-) TimerEvent: {}
+[17.333827] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/robot_main_state.py\n'}
+[17.367250] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/lib/wrg_core/talker.py\n'}
+[17.402371] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/package_run_dependencies/wrg_core\n'}
+[17.405619] (-) TimerEvent: {}
+[17.437055] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/parent_prefix_path/wrg_core\n'}
+[17.470684] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.sh\n'}
+[17.505862] (-) TimerEvent: {}
+[17.508325] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/ament_prefix_path.dsv\n'}
+[17.543344] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/path.sh\n'}
+[17.577463] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/environment/path.dsv\n'}
+[17.606141] (-) TimerEvent: {}
+[17.613895] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.bash\n'}
+[17.650181] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.sh\n'}
+[17.686474] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.zsh\n'}
+[17.706367] (-) TimerEvent: {}
+[17.720843] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/local_setup.dsv\n'}
+[17.754188] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/package.dsv\n'}
+[17.788873] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/ament_index/resource_index/packages/wrg_core\n'}
+[17.806571] (-) TimerEvent: {}
+[17.823110] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig.cmake\n'}
+[17.856250] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/cmake/wrg_coreConfig-version.cmake\n'}
+[17.890359] (wrg_core) StdoutLine: {'line': b'-- Symlinking: /home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/share/wrg_core/package.xml\n'}
+[17.906772] (-) TimerEvent: {}
+[18.007703] (-) TimerEvent: {}
+[18.075621] (wrg_core) StdoutLine: {'line': b"Listing '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core'...\n"}
+[18.076916] (wrg_core) StdoutLine: {'line': b"Compiling '/home/cmu/wrg2024_turtlebot3_ws/robot_ws/install/wrg_core/local/lib/python3.10/dist-packages/wrg_core/__init__.py'...\n"}
+[18.104969] (wrg_core) CommandEnded: {'returncode': 0}
+[18.107832] (-) TimerEvent: {}
+[18.208546] (-) TimerEvent: {}
+[18.309239] (-) TimerEvent: {}
+[18.349705] (wrg_core) JobEnded: {'identifier': 'wrg_core', 'rc': 0}
+[18.352389] (-) EventReactorShutdown: {}
